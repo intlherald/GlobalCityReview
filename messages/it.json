@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "siteTitle": "Global City Review",
+    "siteDescription": "Global City Review pubblica editoriali, analisi urbane, prospettive regionali e report su governance urbana e questioni pubbliche di lungo periodo.",
+    "homeTitle": "Editoriali, analisi urbane e prospettive regionali",
+    "homeDescription": "Global City Review pubblica commenti ragionati su governance urbana, competitività regionale, politiche pubbliche e strategia delle città.",
+    "categoryTitle": "Sezione",
+    "categoryDescription": "Articoli di sezione di Global City Review.",
+    "articleTitle": "Articolo",
+    "articleDescription": "Un articolo di Global City Review.",
+    "editorsTitle": "Redazione",
+    "editorsDescription": "Profili di editor e autori di Global City Review, con focus di ricerca e firme pubbliche.",
+    "searchTitle": "Cerca",
+    "searchDescription": "Cerca analisi urbane, prospettive regionali, editoriali e report di Global City Review."
+  },
+  "common": {
+    "brand": "Global City Review",
+    "brandLocal": "Global City Review",
+    "fallbackLanguage": "Italiano",
+    "minutes": "{count} min di lettura",
+    "pending": "In attesa",
+    "editorialDesk": "Redazione",
+    "uncategorized": "Senza categoria",
+    "unnamedArticle": "Articolo senza titolo",
+    "untitledDescription": "Questo articolo non ha ancora un sommario.",
+    "viewChannel": "Vedi sezione",
+    "previousPage": "Precedente",
+    "nextPage": "Successiva",
+    "pagination": "Paginazione",
+    "pageIndicator": "Pagina {page} / {total}",
+    "noChannelArticles": "Nessun contenuto pubblicato al momento.",
+    "categories": {
+      "editorial": "Editoriale",
+      "city-analysis": "Analisi urbana",
+      "regional-outlook": "Prospettiva regionale",
+      "expert-perspectives": "Prospettive esperte",
+      "reports": "Report"
+    }
+  },
+  "header": {
+    "positioning": "Media internazionale di commento / analisi delle politiche",
+    "mainNav": "Navigazione principale",
+    "languageNav": "Selettore lingua",
+    "editors": "Redazione",
+    "about": "Chi siamo"
+  },
+  "search": {
+    "placeholder": "Cerca città, regioni o temi",
+    "ariaLabel": "Cerca",
+    "button": "Cerca",
+    "title": "Cerca",
+    "emptyTitle": "Inserisci una parola chiave",
+    "emptyMessage": "Prova città, regioni, governance, mobilità, popolazione o temi di report.",
+    "noResultsTitle": "Nessun risultato",
+    "noResultsMessage": "Nessun articolo corrisponde ancora a questa parola chiave.",
+    "errorTitle": "La ricerca è temporaneamente non disponibile"
+  },
+  "states": {
+    "serviceNotice": "Avviso di servizio",
+    "noRecords": "Nessun record",
+    "errorTitle": "I dati pubblici sono temporaneamente non disponibili",
+    "errorMessage": "La Public API del CMS ha restituito un errore. Riprova più tardi o controlla URL del servizio e slug del sito.",
+    "emptyTitle": "Nessun contenuto pubblicato al momento",
+    "emptyMessage": "Torna a controllare più tardi."
+  },
+  "footer": {
+    "description": "Curato dal Global Urban Policy Institute, con attenzione a governance urbana, competitività regionale e questioni pubbliche di lungo periodo.",
+    "complianceNav": "Link di conformità",
+    "editorialPrinciples": "Principi editoriali",
+    "privacy": "Privacy",
+    "terms": "Termini",
+    "cookie": "Cookie"
+  },
+  "home": {
+    "eyebrow": "Global City Review",
+    "heroTitle": "Leggere l'ordine di lungo periodo dalla scala urbana",
+    "heroDescription": "Esaminiamo il rapporto strutturale tra governance urbana, competitività regionale, investimento pubblico e resilienza sociale, fondando ogni argomento su fonti pubbliche.",
+    "heroImageAlt": "Immagine fissa per il commento urbano",
+    "emptyTitle": "Nessun contenuto pubblicato al momento",
+    "emptyMessage": "Nuovi commenti e analisi urbane sono in preparazione.",
+    "leadEyebrow": "Editoriale principale",
+    "leadTitle": "Editoriale principale",
+    "sections": {
+      "editorial": { "title": "Editoriale", "kicker": "Editoriale principale" },
+      "city-analysis": { "title": "Analisi urbana", "kicker": "Analisi urbana" },
+      "regional-outlook": { "title": "Prospettiva regionale", "kicker": "Prospettiva regionale" },
+      "expert-perspectives": { "title": "Prospettive esperte", "kicker": "Prospettive esperte" },
+      "reports": { "title": "Report", "kicker": "Report" }
+    }
+  },
+  "newsletter": {
+    "eyebrow": "Nota di campo",
+    "title": "Una nota settimanale per chi legge le città con serietà",
+    "description": "Ricevi un breve editoriale su governance urbana, competizione regionale, scelte infrastrutturali e segnali di finanza pubblica. Niente allarmi o campagne, solo argomenti da tenere sul tavolo.",
+    "formLabel": "Iscrizione alla nota email",
+    "emailLabel": "Indirizzo email",
+    "placeholder": "tu@example.com",
+    "button": "Iscriviti",
+    "note": "Iscrizione dimostrativa. Nessun indirizzo viene inviato o salvato."
+  },
+  "category": {
+    "eyebrow": "Sezione",
+    "fallbackDescription": "Commenti, analisi e report pubblicati in questa sezione.",
+    "emptyTitle": "Nessun contenuto pubblicato in questa sezione",
+    "emptyMessage": "Gli articoli di questa sezione sono in preparazione.",
+    "errorTitle": "Questa sezione è temporaneamente non disponibile"
+  },
+  "article": {
+    "argument": "Argomento centrale",
+    "disclosure": "Nota",
+    "fallbackDisclosure": "Questo articolo si basa su materiali pubblici, fonti di riferimento e analisi editoriale. È destinato alla discussione di politiche urbane e questioni pubbliche e non costituisce consulenza legale, finanziaria, operativa o commerciale. I fatti rilevanti devono essere verificati con fonti ufficiali e originali.",
+    "errorTitle": "Questo articolo è temporaneamente non disponibile",
+    "sourcesEyebrow": "Fonti",
+    "sourcesTitle": "URL delle fonti",
+    "noSources": "A questo articolo non sono ancora collegati link a fonti pubbliche."
+  },
+  "share": {
+    "ariaLabel": "Condivisione social",
+    "linkedin": "LinkedIn",
+    "x": "X",
+    "facebook": "Facebook",
+    "email": "Email"
+  },
+  "editors": {
+    "eyebrow": "Comitato editoriale",
+    "title": "Redazione",
+    "intro": "Non confezioniamo gli argomenti tramite ritratti o titoli gonfiati. Le pagine autore mostrano firma, ruolo e contesto di ricerca perché il lettore possa valutare l'ambiente editoriale.",
+    "defaultRole": "Redazione",
+    "fallbackBio": "Questo profilo autore è in preparazione.",
+    "emptyTitle": "Nessun editor al momento",
+    "emptyMessage": "I profili della redazione sono in preparazione.",
+    "errorTitle": "I profili della redazione sono temporaneamente non disponibili",
+    "noArticlesTitle": "Nessun articolo correlato al momento",
+    "noArticlesMessage": "Questo autore non ha ancora pubblicato articoli.",
+    "detailErrorTitle": "Questa pagina autore è temporaneamente non disponibile"
+  },
+  "static": {
+    "about": {
+      "eyebrow": "Chi siamo",
+      "title": "Chi siamo: Global City Review",
+      "p1": "Global City Review è un sito internazionale di commento per ricercatori di politiche urbane, team pubblici, consulenze, editor media e osservatori delle città con orizzonte lungo. Trattiamo governance urbana, infrastrutture, economia regionale, finanza pubblica, abitazione e movimenti di popolazione.",
+      "p2": "Il sito è curato dal team editoriale del Global Urban Policy Institute. Pubblichiamo editoriali, analisi urbane, prospettive regionali, prospettive esperte e commenti in forma di report. Ogni pezzo dovrebbe indicare prove, fonti pubbliche, limiti d'inferenza e incertezze.",
+      "contact": "Email di contatto: ",
+      "address": "Indirizzo postale: "
+    },
+    "principles": {
+      "eyebrow": "Carta editoriale",
+      "title": "Principi editoriali",
+      "h1": "Gli argomenti possono essere netti, le prove devono essere tracciabili",
+      "p1": "Accogliamo il giudizio nel commento urbano, ma non presentiamo la speculazione come fatto. Le affermazioni su politiche, investimenti, popolazione, trasporti, servizi pubblici o finanza municipale dovrebbero basarsi quando possibile su documenti ufficiali, statistiche originali, materiale accademico o resoconti credibili.",
+      "h2": "Nessuna autorità inventata",
+      "p2": "Non fabbrichiamo interviste, interventi a conferenze, documenti interni o dati non pubblicati. Quando un articolo usa analisi editoriale, deve distinguere fatti, inferenze e commento.",
+      "h3": "Prima le questioni di lungo periodo",
+      "p3": "Diamo priorità ai temi che modellano la capacità urbana di lungo periodo: resilienza fiscale, accessibilità abitativa, governance infrastrutturale, coordinamento regionale, geografia industriale, fiducia pubblica e adattamento climatico.",
+      "h4": "Correzioni",
+      "p4": "I lettori possono contattare la redazione tramite l'email nel footer se trovano un errore fattuale, una fonte non funzionante o un confine poco chiaro tra fatto e opinione."
+    },
+    "privacy": {
+      "eyebrow": "Privacy",
+      "title": "Informativa privacy",
+      "p1": "Global City Review segue un approccio di minimizzazione dei dati. Durante la visita, server, hosting o servizi di sicurezza possono registrare indirizzo IP, tipo di browser, ora di accesso, percorso richiesto, log di errore e informazioni di base sul dispositivo.",
+      "p2": "Il sito al momento non offre account lettore o strumenti di profilazione e non raccoglie indirizzi email tramite moduli.",
+      "p3": "I messaggi dei lettori possono includere suggerimenti, correzioni, fonti, domande di licenza o richieste di cooperazione. Usiamo queste informazioni solo per verifica editoriale, risposta, conservazione di conformità e audit di sicurezza.",
+      "p4": "Per consultare, correggere o eliminare record email relativi a te, contatta "
+    },
+    "terms": {
+      "eyebrow": "Termini",
+      "title": "Termini d'uso",
+      "p1": "Il contenuto del sito serve alla discussione di politiche urbane, sviluppo regionale e questioni pubbliche. Analisi e giudizi si basano su materiali pubblici e interpretazione editoriale.",
+      "p2": "I lettori possono citare titoli, brevi estratti e link entro limiti ragionevoli mantenendo l'attribuzione. Ripubblicazioni integrali, scraping sistematico o riuso fuorviante richiedono autorizzazione scritta preventiva.",
+      "p3": "I link esterni identificano fonti pubbliche o materiali di riferimento. Global City Review non ne controlla contenuto, disponibilità o accuratezza successiva.",
+      "p4": "Per licenze, correzioni, integrazioni di fonti o cooperazione, contatta "
+    },
+    "cookie": {
+      "eyebrow": "Cookie",
+      "title": "Informativa cookie",
+      "p1": "Global City Review attualmente non usa cookie pubblicitari, tag di marketing cross-site o profilazione dei lettori tramite cookie.",
+      "p2": "Hosting, distribuzione dei contenuti, sicurezza o funzionamento del framework possono usare cookie necessari per routing linguistico, sicurezza della sessione, bilanciamento del carico, cache e rilevamento di richieste anomale.",
+      "p3": "Se in futuro aggiungeremo analisi, account o altri servizi che richiedono cookie aggiuntivi, aggiorneremo questa pagina prima dell'attivazione.",
+      "p4": "I lettori possono eliminare o limitare i cookie dal browser. Limitare i cookie necessari può influire su reindirizzamenti di lingua, sicurezza o caricamento delle pagine."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="Regional outlook fixed map image">
+  <rect width="1200" height="720" fill="#5B1A1A"/>
+  <g fill="#D8CFC0" opacity=".28">
+    <path d="M170 290 C240 180 380 185 425 290 C485 430 330 520 225 470 C145 430 120 365 170 290Z"/>
+    <path d="M520 205 C640 120 820 180 820 315 C820 455 670 525 550 455 C455 400 430 275 520 205Z"/>
+    <path d="M820 350 C910 255 1090 280 1120 420 C1150 560 1000 640 875 575 C770 520 745 430 820 350Z"/>
+  </g>
+  <g stroke="#F2EDE4" stroke-opacity=".46" fill="none">
+    <path d="M300 365 L595 330 L940 455"/>
+    <path d="M595 330 L910 250"/>
+    <path d="M300 365 L470 555 L940 455"/>
+  </g>
+  <g fill="#F2EDE4">
+    <circle cx="300" cy="365" r="9"/><circle cx="595" cy="330" r="9"/><circle cx="940" cy="455" r="9"/><circle cx="910" cy="250" r="9"/><circle cx="470" cy="555" r="9"/>
+  </g>
+  <rect x="72" y="72" width="610" height="84" fill="#222222" opacity=".68"/>
+  <text x="96" y="125" fill="#F2EDE4" font-family="Georgia, serif" font-size="34" letter-spacing="4">REGIONAL OUTLOOK</text>
+</svg>

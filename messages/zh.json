@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "siteTitle": "全球城市评论 | Global City Review",
+    "siteDescription": "全球城市评论提供社论、城市分析、区域观察与深度报告，关注城市治理和长期公共议题。",
+    "homeTitle": "社论、城市分析与区域观察",
+    "homeDescription": "全球城市评论以中文发布城市治理、区域竞争力、公共政策和城市战略的深度评论。",
+    "categoryTitle": "栏目",
+    "categoryDescription": "全球城市评论栏目文章。",
+    "articleTitle": "文章",
+    "articleDescription": "全球城市评论文章。",
+    "editorsTitle": "编辑作者",
+    "editorsDescription": "全球城市评论编辑作者页面，呈现研究方向、职责和公开署名。",
+    "searchTitle": "搜索",
+    "searchDescription": "搜索全球城市评论的城市分析、区域观察、社论和报告。"
+  },
+  "common": {
+    "brand": "Global City Review",
+    "brandLocal": "全球城市评论",
+    "fallbackLanguage": "简体中文",
+    "minutes": "{count} 分钟阅读",
+    "pending": "待定",
+    "editorialDesk": "编辑部",
+    "uncategorized": "未分类",
+    "unnamedArticle": "未命名文章",
+    "untitledDescription": "这篇文章暂未提供摘要。",
+    "viewChannel": "查看栏目",
+    "previousPage": "上一页",
+    "nextPage": "下一页",
+    "pagination": "分页",
+    "pageIndicator": "第 {page} / {total} 页",
+    "noChannelArticles": "该栏目暂无已发布内容。",
+    "categories": {
+      "editorial": "社论",
+      "city-analysis": "城市分析",
+      "regional-outlook": "区域观察",
+      "expert-perspectives": "专家观点",
+      "reports": "深度报告"
+    }
+  },
+  "header": {
+    "positioning": "国际评论媒体 / 智库分析",
+    "mainNav": "主导航",
+    "languageNav": "语言切换",
+    "editors": "编辑作者",
+    "about": "关于"
+  },
+  "search": {
+    "placeholder": "搜索城市、区域或议题",
+    "ariaLabel": "搜索",
+    "button": "Search",
+    "title": "搜索",
+    "emptyTitle": "请输入关键词",
+    "emptyMessage": "可搜索城市、区域、治理、交通、人口或报告主题。",
+    "noResultsTitle": "搜索暂无结果",
+    "noResultsMessage": "暂未找到与关键词匹配的文章。",
+    "errorTitle": "搜索暂时无法完成"
+  },
+  "states": {
+    "serviceNotice": "Service notice",
+    "noRecords": "No records",
+    "errorTitle": "公共数据暂时无法读取",
+    "errorMessage": "CMS Public API 返回异常。请稍后重试，或检查服务地址与站点标识配置。",
+    "emptyTitle": "暂无已发布内容",
+    "emptyMessage": "请稍后再来查看。"
+  },
+  "footer": {
+    "description": "由 Global Urban Policy Institute 维护，关注全球城市治理、区域竞争力和长期公共议题。",
+    "complianceNav": "合规链接",
+    "editorialPrinciples": "编辑原则",
+    "privacy": "隐私",
+    "terms": "条款",
+    "cookie": "Cookie"
+  },
+  "home": {
+    "eyebrow": "Global City Review",
+    "heroTitle": "从城市现场看长期秩序",
+    "heroDescription": "我们关注城市治理、区域竞争力、公共投资与社会韧性之间的结构性关系，以审慎观点和公开来源支撑每一篇评论。",
+    "heroImageAlt": "城市评论固定图片",
+    "emptyTitle": "暂无已发布内容",
+    "emptyMessage": "新的城市评论和分析文章正在整理中。",
+    "leadEyebrow": "Lead Editorial",
+    "leadTitle": "重点社论",
+    "sections": {
+      "editorial": { "title": "社论", "kicker": "Lead Editorial" },
+      "city-analysis": { "title": "城市分析", "kicker": "City Analysis" },
+      "regional-outlook": { "title": "区域观察", "kicker": "Regional Outlook" },
+      "expert-perspectives": { "title": "专家观点", "kicker": "Expert Perspectives" },
+      "reports": { "title": "深度报告", "kicker": "Reports" }
+    }
+  },
+  "newsletter": {
+    "eyebrow": "Field Briefing",
+    "title": "给认真阅读城市的人，一封每周简报",
+    "description": "围绕城市治理、区域竞争、基础设施选择与公共财政信号，整理一封克制的编辑简报。不推送噪音，不做营销，只保留值得放在案头的判断。",
+    "formLabel": "邮箱简报订阅",
+    "emailLabel": "邮箱地址",
+    "placeholder": "you@example.com",
+    "button": "订阅",
+    "note": "演示订阅入口，不会提交或保存邮箱。"
+  },
+  "category": {
+    "eyebrow": "Channel",
+    "fallbackDescription": "聚合该栏目下已发布的评论、分析和报告。",
+    "emptyTitle": "该栏目暂无已发布内容",
+    "emptyMessage": "该栏目文章正在整理中。",
+    "errorTitle": "栏目暂时无法读取"
+  },
+  "article": {
+    "argument": "本文论点",
+    "disclosure": "Disclosure",
+    "fallbackDisclosure": "本文基于公开资料、参考来源和编辑分析形成，文中观点仅用于城市政策与公共议题讨论，不构成法律、投资、政策执行或商业决策建议。相关事实应以官方和原始来源为准。",
+    "errorTitle": "文章暂时无法读取",
+    "sourcesEyebrow": "Sources",
+    "sourcesTitle": "信息源头 URL",
+    "noSources": "本文暂未附加公开来源链接。"
+  },
+  "share": {
+    "ariaLabel": "社媒分享",
+    "linkedin": "LinkedIn",
+    "x": "X",
+    "facebook": "Facebook",
+    "email": "Email"
+  },
+  "editors": {
+    "eyebrow": "Editorial Board",
+    "title": "编辑作者",
+    "intro": "本站不以头像或头衔包装观点；作者页面只呈现署名、职责与研究背景，便于读者判断文本的编辑语境。",
+    "defaultRole": "Editorial desk",
+    "fallbackBio": "该作者资料正在整理中。",
+    "emptyTitle": "暂无编辑作者",
+    "emptyMessage": "编辑作者资料正在整理中。",
+    "errorTitle": "编辑作者暂时无法读取",
+    "noArticlesTitle": "暂无相关文章",
+    "noArticlesMessage": "该作者暂未发布文章。",
+    "detailErrorTitle": "作者页面暂时无法读取"
+  },
+  "static": {
+    "about": {
+      "eyebrow": "About",
+      "title": "关于 Global City Review",
+      "p1": "Global City Review 是面向城市政策研究者、公共部门、咨询机构、媒体编辑和长期城市观察者的国际评论站点。我们关注城市治理、基础设施、区域经济、公共财政、住房与人口流动等议题，强调从公开资料中识别结构性变化，而不是追逐单一排名或短期项目热度。",
+      "p2": "本站由 Global Urban Policy Institute 的编辑团队维护。我们的文章以社论、城市分析、区域观察、专家观点和报告型评论为主；每篇评论都应说明论点依据、公开来源、推断边界和可能的不确定性。本站内容用于公共议题讨论，不构成法律、投资、采购、规划审批或商业决策建议。",
+      "contact": "联系邮箱：",
+      "address": "通讯地址："
+    },
+    "principles": {
+      "eyebrow": "Editorial Charter",
+      "title": "编辑原则",
+      "h1": "观点可以鲜明，证据必须可追溯",
+      "p1": "我们鼓励有判断力的城市评论，但不把推测包装成事实。涉及政策、投资、人口、交通、公共服务和城市财政的数据，应优先引用官方文件、监管公告、原始统计、学术资料或可信媒体报道；无法核验的说法不得作为事实依据。",
+      "h2": "不制造不存在的权威",
+      "p2": "本站不会伪造专家访谈、会议发言、内部文件或未公开数据。若文章使用编辑分析形成判断，必须在语气和结构中区分事实、推论与评论；涉及争议性政策或商业影响时，应说明替代解释和反方风险。",
+      "h3": "长期问题优先",
+      "p3": "我们优先处理影响城市长期能力的议题：财政韧性、住房可负担性、基础设施治理、区域协同、产业布局、公共信任和气候适应。对城市或区域的判断应避免简单标签化，尽量呈现制度、资源和时间尺度之间的关系。",
+      "h4": "更正",
+      "p4": "若读者发现事实错误、来源失效或观点边界表述不清，可通过页脚邮箱联系编辑部。我们会优先核对原始来源，并在必要时更新文章、补充说明或更正明显错误。更正不会用于悄悄改变文章核心结论。"
+    },
+    "privacy": {
+      "eyebrow": "Privacy",
+      "title": "隐私政策",
+      "p1": "Global City Review 采用最小化的数据处理原则。访问本站时，服务器、托管服务或安全服务可能记录 IP 地址、浏览器类型、访问时间、请求路径、错误日志和基础设备信息，用于页面交付、安全防护、性能排查和异常请求识别。",
+      "p2": "本站目前不提供会员账户或读者画像功能，也不会通过表单收集读者邮箱。只有当读者主动向页脚列明的联系邮箱发送邮件时，我们才会收到其邮箱地址、邮件正文和随附信息。",
+      "p3": "读者来信可能涉及选题建议、事实纠错、来源补充、授权咨询或合作沟通。我们仅在编辑核查、回复沟通、合规留存和安全审计所需范围内使用这些信息，不出售、出租或用于广告定向。",
+      "p4": "如需查询、更正或删除与自己相关的邮件记录，请联系 "
+    },
+    "terms": {
+      "eyebrow": "Terms",
+      "title": "使用条款",
+      "p1": "本站内容用于城市政策、区域发展和公共议题讨论。文章中的分析和判断基于公开资料与编辑解释，不构成法律、投资、采购、规划审批、政策执行或商业决策建议。读者在采取行动前应核对官方文件、原始数据和专业意见。",
+      "p2": "读者可在合理范围内引用文章标题、短摘和链接，并应保留出处。转载完整文章、系统性抓取页面、将本站评论改写为商业报告或训练材料，或以可能误导读者的方式重新发布内容，应事先取得书面许可。",
+      "p3": "文章中的外部链接用于标明公开来源或参考材料。外部网站的内容、可用性、后续修改和数据准确性不由 Global City Review 控制；若来源链接失效，读者可联系编辑部协助核查。",
+      "p4": "与内容授权、事实纠错、来源补充或合作相关的问题，请联系 "
+    },
+    "cookie": {
+      "eyebrow": "Cookie Policy",
+      "title": "Cookie 政策",
+      "p1": "Global City Review 当前不使用广告追踪 Cookie，不设置跨站营销标签，也不通过 Cookie 建立读者画像。",
+      "p2": "托管、内容分发、安全防护或框架运行可能使用必要 Cookie 或类似技术，用于语言路径处理、会话安全、负载均衡、缓存控制和异常请求识别。这类技术仅服务于站点可用性与安全。",
+      "p3": "如果未来增加分析工具、账户功能或其它需要额外 Cookie 的服务，我们会在启用前更新本页面，说明使用目的、保留时间、第三方提供方和退出方式。",
+      "p4": "读者可以通过浏览器设置删除或限制 Cookie。限制必要 Cookie 可能影响语言跳转、安全校验或页面加载表现，但不会影响阅读公开文章的基本权利。"
+    }
+  }
+}
