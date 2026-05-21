@@ -1,0 +1,28 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "global-city-review",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-05-21",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "assets": {
+    "binding": "ASSETS",
+    "directory": ".open-next/assets"
+  },
+  "services": [
+    {
+      "binding": "WORKER_SELF_REFERENCE",
+      "service": "global-city-review"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  },
+  "vars": {
+      "CMS_API_BASE": "https://replace-with-admin-public-api.example.com",
+      "SITE_SLUG": "global-city-review",
+      "DEFAULT_LANGUAGE": "en",
+      "SITE_URL": "https://www.globalcityreview.com",
+      "CONTACT_EMAIL": "letters@globalcityreview.com",
+      "ADDRESS": "30 Cecil Street, Prudential Tower, Singapore 049712"
+  }
+}
