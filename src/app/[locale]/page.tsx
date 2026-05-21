@@ -5,7 +5,6 @@ import { cms } from "@/cms/client";
 import { ArticleCard } from "@/components/ArticleCard";
 import { EmptyState } from "@/components/EmptyState";
 import { ErrorState } from "@/components/ErrorState";
-import { NewsletterSection } from "@/components/NewsletterSection";
 import { SearchBox } from "@/components/SearchBox";
 import { buildMetadata } from "@/lib/metadata";
 import { articleDescription, articleSlug, articleTitle, findCategory, findEditor, getCategoryImage, translationOf } from "@/lib/content";
@@ -87,7 +86,18 @@ export default async function HomePage({ params }: PageProps) {
               )}
             </section>
 
-            <NewsletterSection />
+            <section className="review-index">
+              <div>
+                <p className="eyebrow">{tHome("sections.editorial.kicker")}</p>
+                <h2>{tHome("sections.editorial.title")}</h2>
+              </div>
+              {articles.slice(1, 5).map((article, index) => (
+                <Link className="review-index-item" href={localizedPath(locale, `/articles/${articleSlug(article)}`)} key={article.id}>
+                  <span>{String(index + 1).padStart(2, "0")}</span>
+                  <strong>{articleTitle(article, tCommon("unnamedArticle"))}</strong>
+                </Link>
+              ))}
+            </section>
 
             <section className="section-grid">
               {sectionOrder.map((section) => {
