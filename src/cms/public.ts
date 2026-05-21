@@ -238,7 +238,7 @@ export type LanguageListParams = {
 
 /** Client setup options. */
 export type PublicCmsClientOptions = {
-  /** CMS backend base URL, for example https://cms.example.com or http://127.0.0.1:8000. */
+  /** CMS backend base URL, for example https://chuanmei.crawlsy.dpdns.org. */
   apiBase: string;
   /** Site slug from admin Site Management, for example global-city-wire. */
   siteSlug: string;

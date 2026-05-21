@@ -7,7 +7,7 @@ export const siteConfig = {
   url: (process.env.SITE_URL ?? "https://www.globalcityreview.com").replace(/\/+$/, ""),
   contactEmail: process.env.CONTACT_EMAIL ?? "letters@globalcityreview.com",
   address: process.env.ADDRESS ?? "30 Cecil Street, Prudential Tower, Singapore 049712",
-  apiBase: process.env.CMS_API_BASE ?? "http://127.0.0.1:8000",
+  apiBase: process.env.CMS_API_BASE ?? "https://chuanmei.crawlsy.dpdns.org",
   defaultOgImage: "/images/gcr-editorial.svg"
 };
 

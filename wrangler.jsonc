@@ -18,7 +18,7 @@
     "enabled": true
   },
   "vars": {
-      "CMS_API_BASE": "https://replace-with-admin-public-api.example.com",
+      "CMS_API_BASE": "https://chuanmei.crawlsy.dpdns.org",
       "SITE_SLUG": "global-city-review",
       "DEFAULT_LANGUAGE": "en",
       "SITE_URL": "https://www.globalcityreview.com",

@@ -12,7 +12,7 @@ bun run dev
 ## Required Environment
 
 ```txt
-CMS_API_BASE=https://replace-with-admin-public-api.example.com
+CMS_API_BASE=https://chuanmei.crawlsy.dpdns.org
 SITE_SLUG=global-city-review
 DEFAULT_LANGUAGE=en
 SITE_URL=https://www.globalcityreview.com
@@ -35,6 +35,6 @@ bun run cf:preview
 bun run cf:deploy
 ```
 
-Before deploying, update `CMS_API_BASE` in `wrangler.jsonc` to the public admin API origin. The committed value is a placeholder and must not be used in production.
+`CMS_API_BASE` is configured for the shared admin public API origin. Update it only when the backend public domain changes.
 
 Runtime variables are defined in `wrangler.jsonc` under `vars`. Secrets should be configured with `wrangler secret put <NAME>` instead of being committed.

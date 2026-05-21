@@ -53,7 +53,7 @@ function normalizeLanguages(languages: PublicLanguage[]): PublicLanguage[] {
 }
 
 async function getPublicLanguages(request: NextRequest): Promise<PublicLanguage[]> {
-  const apiBase = process.env.CMS_API_BASE ?? "http://127.0.0.1:8000";
+  const apiBase = process.env.CMS_API_BASE ?? "https://chuanmei.crawlsy.dpdns.org";
   const siteSlug = process.env.SITE_SLUG ?? "global-city-review";
   const url = `${apiBase.replace(/\/+$/, "")}/api/sites/${encodeURIComponent(siteSlug)}/languages?enabled=true`;
 
