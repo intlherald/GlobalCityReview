@@ -16,26 +16,26 @@
   "common": {
     "brand": "Global City Review",
     "brandLocal": "全球城市评论",
-    "fallbackLanguage": "简体中文",
+    "fallbackLanguage": "中文",
     "minutes": "{count} 分钟阅读",
-    "pending": "待定",
+    "pending": "待发布",
     "editorialDesk": "编辑部",
     "uncategorized": "未分类",
     "unnamedArticle": "未命名文章",
     "untitledDescription": "这篇文章暂未提供摘要。",
-    "viewChannel": "查看栏目",
     "previousPage": "上一页",
     "nextPage": "下一页",
     "pagination": "分页",
     "pageIndicator": "第 {page} / {total} 页",
-    "noChannelArticles": "该栏目暂无已发布内容。",
     "categories": {
       "editorial": "社论",
       "city-analysis": "城市分析",
       "regional-outlook": "区域观察",
       "expert-perspectives": "专家观点",
       "reports": "深度报告"
-    }
+    },
+    "viewChannel": "查看栏目",
+    "noChannelArticles": "暂无已发布内容"
   },
   "header": {
     "positioning": "国际评论媒体 / 智库分析",
@@ -56,8 +56,8 @@
     "errorTitle": "搜索暂时无法完成"
   },
   "states": {
-    "serviceNotice": "Service notice",
-    "noRecords": "No records",
+    "serviceNotice": "服务提示",
+    "noRecords": "暂无记录",
     "errorTitle": "公共数据暂时无法读取",
     "errorMessage": "CMS Public API 返回异常。请稍后重试，或检查服务地址与站点标识配置。",
     "emptyTitle": "暂无已发布内容",
@@ -78,14 +78,29 @@
     "heroImageAlt": "城市评论固定图片",
     "emptyTitle": "暂无已发布内容",
     "emptyMessage": "新的城市评论和分析文章正在整理中。",
-    "leadEyebrow": "Lead Editorial",
+    "leadEyebrow": "重点社论",
     "leadTitle": "重点社论",
     "sections": {
-      "editorial": { "title": "社论", "kicker": "Lead Editorial" },
-      "city-analysis": { "title": "城市分析", "kicker": "City Analysis" },
-      "regional-outlook": { "title": "区域观察", "kicker": "Regional Outlook" },
-      "expert-perspectives": { "title": "专家观点", "kicker": "Expert Perspectives" },
-      "reports": { "title": "深度报告", "kicker": "Reports" }
+      "editorial": {
+        "title": "社论",
+        "kicker": "重点社论"
+      },
+      "city-analysis": {
+        "title": "城市分析",
+        "kicker": "城市分析"
+      },
+      "regional-outlook": {
+        "title": "区域观察",
+        "kicker": "区域观察"
+      },
+      "expert-perspectives": {
+        "title": "专家观点",
+        "kicker": "专家观点"
+      },
+      "reports": {
+        "title": "深度报告",
+        "kicker": "深度报告"
+      }
     }
   },
   "newsletter": {
@@ -99,7 +114,7 @@
     "note": "演示订阅入口，不会提交或保存邮箱。"
   },
   "category": {
-    "eyebrow": "Channel",
+    "eyebrow": "栏目",
     "fallbackDescription": "聚合该栏目下已发布的评论、分析和报告。",
     "emptyTitle": "该栏目暂无已发布内容",
     "emptyMessage": "该栏目文章正在整理中。",
@@ -122,10 +137,10 @@
     "email": "Email"
   },
   "editors": {
-    "eyebrow": "Editorial Board",
+    "eyebrow": "编辑委员会",
     "title": "编辑作者",
     "intro": "本站不以头像或头衔包装观点；作者页面只呈现署名、职责与研究背景，便于读者判断文本的编辑语境。",
-    "defaultRole": "Editorial desk",
+    "defaultRole": "编辑部",
     "fallbackBio": "该作者资料正在整理中。",
     "emptyTitle": "暂无编辑作者",
     "emptyMessage": "编辑作者资料正在整理中。",
@@ -136,7 +151,7 @@
   },
   "static": {
     "about": {
-      "eyebrow": "About",
+      "eyebrow": "关于",
       "title": "关于 Global City Review",
       "p1": "Global City Review 是面向城市政策研究者、公共部门、咨询机构、媒体编辑和长期城市观察者的国际评论站点。我们关注城市治理、基础设施、区域经济、公共财政、住房与人口流动等议题，强调从公开资料中识别结构性变化，而不是追逐单一排名或短期项目热度。",
       "p2": "本站由 Global Urban Policy Institute 的编辑团队维护。我们的文章以社论、城市分析、区域观察、专家观点和报告型评论为主；每篇评论都应说明论点依据、公开来源、推断边界和可能的不确定性。本站内容用于公共议题讨论，不构成法律、投资、采购、规划审批或商业决策建议。",
@@ -144,7 +159,7 @@
       "address": "通讯地址："
     },
     "principles": {
-      "eyebrow": "Editorial Charter",
+      "eyebrow": "编辑章程",
       "title": "编辑原则",
       "h1": "观点可以鲜明，证据必须可追溯",
       "p1": "我们鼓励有判断力的城市评论，但不把推测包装成事实。涉及政策、投资、人口、交通、公共服务和城市财政的数据，应优先引用官方文件、监管公告、原始统计、学术资料或可信媒体报道；无法核验的说法不得作为事实依据。",
@@ -172,7 +187,7 @@
       "p4": "与内容授权、事实纠错、来源补充或合作相关的问题，请联系 "
     },
     "cookie": {
-      "eyebrow": "Cookie Policy",
+      "eyebrow": "Cookie 政策",
       "title": "Cookie 政策",
       "p1": "Global City Review 当前不使用广告追踪 Cookie，不设置跨站营销标签，也不通过 Cookie 建立读者画像。",
       "p2": "托管、内容分发、安全防护或框架运行可能使用必要 Cookie 或类似技术，用于语言路径处理、会话安全、负载均衡、缓存控制和异常请求识别。这类技术仅服务于站点可用性与安全。",

@@ -23,19 +23,19 @@
     "uncategorized": "Sin categoría",
     "unnamedArticle": "Artículo sin título",
     "untitledDescription": "Este artículo aún no tiene resumen.",
-    "viewChannel": "Ver sección",
     "previousPage": "Anterior",
     "nextPage": "Siguiente",
     "pagination": "Paginación",
     "pageIndicator": "Página {page} / {total}",
-    "noChannelArticles": "Aún no hay contenido publicado.",
     "categories": {
       "editorial": "Editorial",
       "city-analysis": "Análisis urbano",
       "regional-outlook": "Perspectiva regional",
       "expert-perspectives": "Perspectivas expertas",
       "reports": "Informes"
-    }
+    },
+    "viewChannel": "Ver sección",
+    "noChannelArticles": "Aún no hay contenido publicado"
   },
   "header": {
     "positioning": "Medio internacional de comentario / análisis de políticas",
@@ -81,11 +81,26 @@
     "leadEyebrow": "Editorial principal",
     "leadTitle": "Editorial principal",
     "sections": {
-      "editorial": { "title": "Editorial", "kicker": "Editorial principal" },
-      "city-analysis": { "title": "Análisis urbano", "kicker": "Análisis urbano" },
-      "regional-outlook": { "title": "Perspectiva regional", "kicker": "Perspectiva regional" },
-      "expert-perspectives": { "title": "Perspectivas expertas", "kicker": "Perspectivas expertas" },
-      "reports": { "title": "Informes", "kicker": "Informes" }
+      "editorial": {
+        "title": "Editorial",
+        "kicker": "Editorial principal"
+      },
+      "city-analysis": {
+        "title": "Análisis urbano",
+        "kicker": "Análisis urbano"
+      },
+      "regional-outlook": {
+        "title": "Perspectiva regional",
+        "kicker": "Perspectiva regional"
+      },
+      "expert-perspectives": {
+        "title": "Perspectivas expertas",
+        "kicker": "Perspectivas expertas"
+      },
+      "reports": {
+        "title": "Informes",
+        "kicker": "Informes"
+      }
     }
   },
   "newsletter": {

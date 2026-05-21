@@ -23,19 +23,19 @@
     "uncategorized": "غير مصنف",
     "unnamedArticle": "مقال بلا عنوان",
     "untitledDescription": "لا يحتوي هذا المقال على ملخص بعد.",
-    "viewChannel": "عرض القسم",
     "previousPage": "السابق",
     "nextPage": "التالي",
     "pagination": "ترقيم الصفحات",
     "pageIndicator": "الصفحة {page} / {total}",
-    "noChannelArticles": "لا توجد مواد منشورة بعد.",
     "categories": {
       "editorial": "افتتاحية",
       "city-analysis": "تحليل حضري",
       "regional-outlook": "رؤية إقليمية",
       "expert-perspectives": "آراء الخبراء",
       "reports": "تقارير"
-    }
+    },
+    "viewChannel": "عرض القسم",
+    "noChannelArticles": "لا توجد مواد منشورة بعد"
   },
   "header": {
     "positioning": "منصة تعليق دولية / تحليل سياسات",
@@ -81,11 +81,26 @@
     "leadEyebrow": "الافتتاحية الرئيسية",
     "leadTitle": "الافتتاحية الرئيسية",
     "sections": {
-      "editorial": { "title": "افتتاحية", "kicker": "الافتتاحية الرئيسية" },
-      "city-analysis": { "title": "تحليل حضري", "kicker": "تحليل حضري" },
-      "regional-outlook": { "title": "رؤية إقليمية", "kicker": "رؤية إقليمية" },
-      "expert-perspectives": { "title": "آراء الخبراء", "kicker": "آراء الخبراء" },
-      "reports": { "title": "تقارير", "kicker": "تقارير" }
+      "editorial": {
+        "title": "افتتاحية",
+        "kicker": "الافتتاحية الرئيسية"
+      },
+      "city-analysis": {
+        "title": "تحليل حضري",
+        "kicker": "تحليل حضري"
+      },
+      "regional-outlook": {
+        "title": "رؤية إقليمية",
+        "kicker": "رؤية إقليمية"
+      },
+      "expert-perspectives": {
+        "title": "آراء الخبراء",
+        "kicker": "آراء الخبراء"
+      },
+      "reports": {
+        "title": "تقارير",
+        "kicker": "تقارير"
+      }
     }
   },
   "newsletter": {

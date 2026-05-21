@@ -81,11 +81,26 @@
     "leadEyebrow": "Lead Editorial",
     "leadTitle": "Lead editorial",
     "sections": {
-      "editorial": { "title": "Editorial", "kicker": "Lead Editorial" },
-      "city-analysis": { "title": "City Analysis", "kicker": "City Analysis" },
-      "regional-outlook": { "title": "Regional Outlook", "kicker": "Regional Outlook" },
-      "expert-perspectives": { "title": "Expert Perspectives", "kicker": "Expert Perspectives" },
-      "reports": { "title": "Reports", "kicker": "Reports" }
+      "editorial": {
+        "title": "Editorial",
+        "kicker": "Lead Editorial"
+      },
+      "city-analysis": {
+        "title": "City Analysis",
+        "kicker": "City Analysis"
+      },
+      "regional-outlook": {
+        "title": "Regional Outlook",
+        "kicker": "Regional Outlook"
+      },
+      "expert-perspectives": {
+        "title": "Expert Perspectives",
+        "kicker": "Expert Perspectives"
+      },
+      "reports": {
+        "title": "Reports",
+        "kicker": "Reports"
+      }
     }
   },
   "newsletter": {
