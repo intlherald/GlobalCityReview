@@ -37,15 +37,15 @@ export function SiteFooter({ locale }: { locale: string }) {
   const tFooter = useTranslations("footer");
   const tCommon = useTranslations("common");
   const resourceLinks = [
-    { href: localizedPath(locale, "/categories/governance"), label: "Governance files" },
-    { href: localizedPath(locale, "/categories/infrastructure"), label: "Infrastructure review" },
-    { href: localizedPath(locale, "/search"), label: "Review archive" },
-    { href: localizedPath(locale, "/editors"), label: "Reviewer index" },
+    { href: localizedPath(locale, "/categories/editorial"), label: tCommon("categories.editorial") },
+    { href: localizedPath(locale, "/categories/city-analysis"), label: tCommon("categories.city-analysis") },
+    { href: localizedPath(locale, "/categories/regional-outlook"), label: tCommon("categories.regional-outlook") },
+    { href: localizedPath(locale, "/editors"), label: tCommon("editorialDesk") },
   ];
   const deskLinks = [
-    { href: localizedPath(locale, "/about"), label: "About the review" },
+    { href: localizedPath(locale, "/about"), label: tCommon("brand") },
     { href: localizedPath(locale, "/editorial-principles"), label: tFooter("editorialPrinciples") },
-    { href: localizedPath(locale, "/search"), label: "Source notes" },
+    { href: localizedPath(locale, "/search"), label: tCommon("editorialDesk") },
   ];
   const legalLinks = [
     { href: localizedPath(locale, "/privacy"), label: tFooter("privacy") },
@@ -56,31 +56,31 @@ export function SiteFooter({ locale }: { locale: string }) {
     <footer className="site-footer">
       <section className="footer-panel" aria-label={tFooter("complianceNav")}>
         <div className="footer-column footer-statement">
-          <h2>Publisher note</h2>
+          <h2>{tCommon("brand")}</h2>
           <p>{tCommon("brand")}: {tFooter("description")}</p>
         </div>
-        <nav className="footer-column" aria-label="Review resources">
-          <h2>Review resources</h2>
+        <nav className="footer-column" aria-label={tCommon("viewChannel")}>
+          <h2>{tCommon("viewChannel")}</h2>
           {resourceLinks.map((item) => (
             <Link key={item.href} href={item.href}>{item.label}</Link>
           ))}
         </nav>
-        <nav className="footer-column" aria-label="Editorial affairs">
-          <h2>Editorial affairs</h2>
+        <nav className="footer-column" aria-label={tCommon("editorialDesk")}>
+          <h2>{tCommon("editorialDesk")}</h2>
           {deskLinks.map((item) => (
             <Link key={item.href} href={item.href}>{item.label}</Link>
           ))}
         </nav>
-        <nav className="footer-column" aria-label="Compliance and legal">
-          <h2>Compliance & legal</h2>
+        <nav className="footer-column" aria-label={tFooter("complianceNav")}>
+          <h2>{tFooter("complianceNav")}</h2>
           {legalLinks.map((item) => (
             <Link key={item.href} href={item.href}>{item.label}</Link>
           ))}
         </nav>
         <address className="footer-column footer-contact">
-          <h2>Contact</h2>
+          <h2>{tCommon("brand")}</h2>
           <span>{siteConfig.address}</span>
-          <span>Email: <a href={`mailto:${siteConfig.contactEmail}`}>{siteConfig.contactEmail}</a></span>
+          <span><a href={`mailto:${siteConfig.contactEmail}`}>{siteConfig.contactEmail}</a></span>
           <div className="footer-socials" aria-label="Social links">
             {socialLinks.map((item) => (
               <a key={item.label} href={item.href} aria-label={item.label} title={item.label} target="_blank" rel="noreferrer">
