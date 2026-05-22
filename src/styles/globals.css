@@ -751,49 +751,69 @@ main {
 }
 
 .site-footer {
-  display: grid;
-  grid-template-columns: minmax(0, 1.1fr) minmax(220px, 0.9fr) minmax(180px, 0.7fr);
-  gap: clamp(28px, 4vw, 56px);
-  padding: clamp(38px, 5vw, 64px) 0 clamp(48px, 6vw, 78px);
+  padding: 18px 0 clamp(24px, 4vw, 36px);
   border-top: 2px solid var(--ink);
   color: #3c3834;
 }
 
-.site-footer h2 {
-  margin: 0 0 8px;
+.footer-panel {
+  display: grid;
+  grid-template-columns: minmax(220px, 1.16fr) repeat(3, minmax(150px, 0.82fr)) minmax(230px, 1.1fr);
+  gap: clamp(28px, 4vw, 62px);
+  padding: clamp(54px, 8vw, 92px) clamp(24px, 5vw, 72px);
+  background: transparent;
+}
+
+.footer-column {
+  display: grid;
+  align-content: start;
+  gap: 17px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-column h2 {
+  margin: 0 0 14px;
+  color: var(--red);
+  font-size: 0.88rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.footer-column p,
+.footer-column a,
+.footer-column span {
+  margin: 0;
+  color: #3c3834;
+  font-size: clamp(1rem, 1.2vw, 1.12rem);
+  line-height: 1.75;
+}
+
+.footer-column a:hover {
   color: var(--red);
 }
 
-.site-footer nav {
-  display: grid;
-  gap: 10px;
-  font-family: Arial, sans-serif;
-  justify-items: end;
-  text-align: right;
-}
-
-.site-footer p,
-.site-footer address {
-  margin: 0;
-  line-height: 1.7;
-}
-
-.site-footer address {
+.footer-contact {
   font-style: normal;
+}
+
+.footer-statement p,
+.footer-contact span {
+  max-width: 28ch;
 }
 
 .footer-socials {
   display: flex;
   flex-wrap: wrap;
-  gap: 9px;
-  margin-top: 18px;
+  gap: 12px;
+  margin-top: 10px;
 }
 
 .footer-socials a {
   display: inline-grid;
   place-items: center;
-  width: 36px;
-  height: 36px;
+  width: 34px;
+  height: 34px;
   border: 1px solid var(--ink);
   border-radius: 0;
   background: #f5efe5;
@@ -819,18 +839,13 @@ main {
   .category-hero,
   .lead-layout,
   .newsletter-section,
-  .site-footer {
+  .footer-panel {
     grid-template-columns: 1fr;
   }
 
   .hero-image,
   .category-image {
     min-height: 280px;
-  }
-
-  .site-footer nav {
-    justify-items: start;
-    text-align: left;
   }
 
   .section-grid,

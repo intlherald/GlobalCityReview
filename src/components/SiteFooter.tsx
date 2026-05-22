@@ -36,30 +36,60 @@ function SocialIcon({ icon }: { icon: (typeof socialLinks)[number]["icon"] }) {
 export function SiteFooter({ locale }: { locale: string }) {
   const tFooter = useTranslations("footer");
   const tCommon = useTranslations("common");
+  const resourceLinks = [
+    { href: localizedPath(locale, "/categories/governance"), label: "Governance files" },
+    { href: localizedPath(locale, "/categories/infrastructure"), label: "Infrastructure review" },
+    { href: localizedPath(locale, "/search"), label: "Review archive" },
+    { href: localizedPath(locale, "/editors"), label: "Reviewer index" },
+  ];
+  const deskLinks = [
+    { href: localizedPath(locale, "/about"), label: "About the review" },
+    { href: localizedPath(locale, "/editorial-principles"), label: tFooter("editorialPrinciples") },
+    { href: localizedPath(locale, "/search"), label: "Source notes" },
+  ];
+  const legalLinks = [
+    { href: localizedPath(locale, "/privacy"), label: tFooter("privacy") },
+    { href: localizedPath(locale, "/terms"), label: tFooter("terms") },
+    { href: localizedPath(locale, "/cookie-policy"), label: tFooter("cookie") },
+  ];
   return (
     <footer className="site-footer">
-      <div>
-        <h2>{tCommon("brand")}</h2>
-        <p>{tFooter("description")}</p>
-      </div>
-      <address>
-        {siteConfig.address}
-        <br />
-        <a href={`mailto:${siteConfig.contactEmail}`}>{siteConfig.contactEmail}</a>
-        <div className="footer-socials" aria-label="Social links">
-          {socialLinks.map((item) => (
-            <a key={item.label} href={item.href} aria-label={item.label} title={item.label} target="_blank" rel="noreferrer">
-              <SocialIcon icon={item.icon} />
-            </a>
-          ))}
+      <section className="footer-panel" aria-label={tFooter("complianceNav")}>
+        <div className="footer-column footer-statement">
+          <h2>Publisher note</h2>
+          <p>{tCommon("brand")}: {tFooter("description")}</p>
         </div>
-      </address>
-      <nav aria-label={tFooter("complianceNav")}>
-        <Link href={localizedPath(locale, "/editorial-principles")}>{tFooter("editorialPrinciples")}</Link>
-        <Link href={localizedPath(locale, "/privacy")}>{tFooter("privacy")}</Link>
-        <Link href={localizedPath(locale, "/terms")}>{tFooter("terms")}</Link>
-        <Link href={localizedPath(locale, "/cookie-policy")}>{tFooter("cookie")}</Link>
-      </nav>
+        <nav className="footer-column" aria-label="Review resources">
+          <h2>Review resources</h2>
+          {resourceLinks.map((item) => (
+            <Link key={item.href} href={item.href}>{item.label}</Link>
+          ))}
+        </nav>
+        <nav className="footer-column" aria-label="Editorial affairs">
+          <h2>Editorial affairs</h2>
+          {deskLinks.map((item) => (
+            <Link key={item.href} href={item.href}>{item.label}</Link>
+          ))}
+        </nav>
+        <nav className="footer-column" aria-label="Compliance and legal">
+          <h2>Compliance & legal</h2>
+          {legalLinks.map((item) => (
+            <Link key={item.href} href={item.href}>{item.label}</Link>
+          ))}
+        </nav>
+        <address className="footer-column footer-contact">
+          <h2>Contact</h2>
+          <span>{siteConfig.address}</span>
+          <span>Email: <a href={`mailto:${siteConfig.contactEmail}`}>{siteConfig.contactEmail}</a></span>
+          <div className="footer-socials" aria-label="Social links">
+            {socialLinks.map((item) => (
+              <a key={item.label} href={item.href} aria-label={item.label} title={item.label} target="_blank" rel="noreferrer">
+                <SocialIcon icon={item.icon} />
+              </a>
+            ))}
+          </div>
+        </address>
+      </section>
     </footer>
   );
 }
