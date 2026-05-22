@@ -10,7 +10,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     container:
-      image: node:20-bookworm
+      image: node:22-bookworm
     steps:
       - name: Checkout
         env:
