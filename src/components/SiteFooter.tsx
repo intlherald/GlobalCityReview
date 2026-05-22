@@ -3,6 +3,36 @@ import { useTranslations } from "next-intl";
 import { siteConfig } from "@/lib/config";
 import { localizedPath } from "@/i18n/routing";
 
+const socialLinks = [
+  { label: "LinkedIn", href: "https://www.linkedin.com/company/global-city-review", icon: "linkedin" },
+  { label: "Facebook", href: "https://www.facebook.com/globalcityreview", icon: "facebook" },
+  { label: "RSS", href: "/feed.xml", icon: "rss" },
+] as const;
+
+function SocialIcon({ icon }: { icon: (typeof socialLinks)[number]["icon"] }) {
+  if (icon === "linkedin") {
+    return (
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M6.9 8.8H3.7v10.5h3.2V8.8ZM5.3 4.2a1.85 1.85 0 1 0 0 3.7 1.85 1.85 0 0 0 0-3.7Zm13.9 9.2c0-3.1-1.7-4.8-4.1-4.8-1.6 0-2.6.9-3 1.7V8.8H9v10.5h3.2v-5.8c0-1.4.7-2.3 2-2.3 1.2 0 1.8.8 1.8 2.3v5.8h3.2v-5.9Z" />
+      </svg>
+    );
+  }
+
+  if (icon === "facebook") {
+    return (
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M13.4 20.4v-7.7h2.6l.4-3h-3V7.8c0-.9.3-1.5 1.6-1.5h1.6V3.6c-.8-.1-1.6-.2-2.4-.2-2.4 0-4 1.5-4 4.1v2.2H7.5v3h2.7v7.7h3.2Z" />
+      </svg>
+    );
+  }
+
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M5.2 5.1c7.5 0 13.7 6.1 13.7 13.7h-3.1c0-5.9-4.8-10.6-10.6-10.6V5.1Zm0 5.3a8.4 8.4 0 0 1 8.4 8.4h-3.1a5.3 5.3 0 0 0-5.3-5.3v-3.1Zm2 5a2.1 2.1 0 1 1 0 4.2 2.1 2.1 0 0 1 0-4.2Z" />
+    </svg>
+  );
+}
+
 export function SiteFooter({ locale }: { locale: string }) {
   const tFooter = useTranslations("footer");
   const tCommon = useTranslations("common");
@@ -16,6 +46,13 @@ export function SiteFooter({ locale }: { locale: string }) {
         {siteConfig.address}
         <br />
         <a href={`mailto:${siteConfig.contactEmail}`}>{siteConfig.contactEmail}</a>
+        <div className="footer-socials" aria-label="Social links">
+          {socialLinks.map((item) => (
+            <a key={item.label} href={item.href} aria-label={item.label} title={item.label} target="_blank" rel="noreferrer">
+              <SocialIcon icon={item.icon} />
+            </a>
+          ))}
+        </div>
       </address>
       <nav aria-label={tFooter("complianceNav")}>
         <Link href={localizedPath(locale, "/editorial-principles")}>{tFooter("editorialPrinciples")}</Link>
