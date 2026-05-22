@@ -15,9 +15,11 @@ jobs:
       - name: Checkout
         env:
           GITEA_TOKEN: ${{ github.token }}
+          REPOSITORY_URL: http://10.144.144.2:3333/yunhai/GlobalCityReview.git
         run: |
+          git config --global init.defaultBranch main
           git init .
-          git remote add origin "${{ github.server_url }}/${{ github.repository }}.git"
+          git remote add origin "${REPOSITORY_URL}"
           git -c http.extraheader="Authorization: token ${GITEA_TOKEN}" fetch --depth=1 origin "${{ github.sha }}"
           git checkout --detach FETCH_HEAD
 
