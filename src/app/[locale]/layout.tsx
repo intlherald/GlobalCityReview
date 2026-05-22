@@ -31,7 +31,12 @@ async function getShellData(locale: string) {
     cms.categories({ language: locale, page: 1, page_size: 20, sort: "sort_order", order: "asc" }).catch(() => null),
     cms.languages({ enabled: true }).catch(() => [])
   ]);
-  return { categories: categories?.items ?? [], languages: languages.length ? normalizeLanguages(languages) : plannedLanguages() };
+  const siteProfile = await cms.siteProfile().catch(() => null);
+  return {
+    categories: categories?.items ?? [],
+    languages: languages.length ? normalizeLanguages(languages) : plannedLanguages(),
+    siteProfile,
+  };
 }
 
 export default async function LocaleLayout({ children, params }: LayoutProps) {
@@ -40,7 +45,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps) {
 
   setRequestLocale(locale);
   const messages = await getMessages();
-  const { categories, languages } = await getShellData(locale);
+  const { categories, languages, siteProfile } = await getShellData(locale);
 
   return (
     <html lang={locale} dir={getDirection(locale)}>
@@ -48,7 +53,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps) {
         <NextIntlClientProvider messages={messages}>
           <SiteHeader categories={categories} languages={languages} locale={locale} />
           <main>{children}</main>
-          <SiteFooter locale={locale} />
+          <SiteFooter locale={locale} siteProfile={siteProfile} />
         </NextIntlClientProvider>
       </body>
     </html>

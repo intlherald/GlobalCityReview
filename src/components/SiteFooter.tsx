@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import type { PublicSiteProfile } from "@/cms/public";
 import { siteConfig } from "@/lib/config";
 import { localizedPath } from "@/i18n/routing";
 
@@ -33,9 +34,12 @@ function SocialIcon({ icon }: { icon: (typeof socialLinks)[number]["icon"] }) {
   );
 }
 
-export function SiteFooter({ locale }: { locale: string }) {
+export function SiteFooter({ locale, siteProfile }: { locale: string; siteProfile: PublicSiteProfile | null }) {
   const tFooter = useTranslations("footer");
   const tCommon = useTranslations("common");
+  const brand = siteProfile?.name ?? tCommon("brand");
+  const address = siteProfile?.address ?? siteConfig.address;
+  const contactEmail = siteProfile?.contact_email ?? siteConfig.contactEmail;
   const resourceLinks = [
     { href: localizedPath(locale, "/categories/editorial"), label: tCommon("categories.editorial") },
     { href: localizedPath(locale, "/categories/city-analysis"), label: tCommon("categories.city-analysis") },
@@ -56,8 +60,8 @@ export function SiteFooter({ locale }: { locale: string }) {
     <footer className="site-footer">
       <section className="footer-panel" aria-label={tFooter("complianceNav")}>
         <div className="footer-column footer-statement">
-          <h2>{tCommon("brand")}</h2>
-          <p>{tCommon("brand")}: {tFooter("description")}</p>
+          <h2>{brand}</h2>
+          <p>{brand}: {tFooter("description")}</p>
         </div>
         <nav className="footer-column" aria-label={tCommon("viewChannel")}>
           <h2>{tCommon("viewChannel")}</h2>
@@ -78,9 +82,9 @@ export function SiteFooter({ locale }: { locale: string }) {
           ))}
         </nav>
         <address className="footer-column footer-contact">
-          <h2>{tCommon("brand")}</h2>
-          <span>{siteConfig.address}</span>
-          <span><a href={`mailto:${siteConfig.contactEmail}`}>{siteConfig.contactEmail}</a></span>
+          <h2>{brand}</h2>
+          <span>{address}</span>
+          <span><a href={`mailto:${contactEmail}`}>{contactEmail}</a></span>
           <div className="footer-socials" aria-label="Social links">
             {socialLinks.map((item) => (
               <a key={item.label} href={item.href} aria-label={item.label} title={item.label} target="_blank" rel="noreferrer">
