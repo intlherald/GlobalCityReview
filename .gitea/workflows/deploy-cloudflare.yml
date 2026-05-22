@@ -13,7 +13,13 @@ jobs:
       image: node:20-bookworm
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        env:
+          GITEA_TOKEN: ${{ github.token }}
+        run: |
+          git init .
+          git remote add origin "${{ github.server_url }}/${{ github.repository }}.git"
+          git -c http.extraheader="Authorization: token ${GITEA_TOKEN}" fetch --depth=1 origin "${{ github.sha }}"
+          git checkout --detach FETCH_HEAD
 
       - name: Install dependencies
         run: npm install
