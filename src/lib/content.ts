@@ -46,7 +46,7 @@ export function formatDate(value: string | null | undefined, locale = "en"): str
 
 export function getCategoryImage(category?: Category | null): string {
   if (category?.hero_image) return category.hero_image;
-  return category ? categoryImageFallbacks[category.slug] ?? "/images/gcr-editorial.svg" : "/images/gcr-editorial.svg";
+  return category ? categoryImageFallbacks[category.slug] ?? siteConfig.defaultOgImage : siteConfig.defaultOgImage;
 }
 
 export function absoluteUrl(path: string): string {
