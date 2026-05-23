@@ -8,8 +8,7 @@ export const siteConfig = {
   contactEmail: process.env.CONTACT_EMAIL ?? "letters@globalcityreview.com",
   address: process.env.ADDRESS ?? "30 Cecil Street, Prudential Tower, Singapore 049712",
   apiBase: process.env.CMS_API_BASE ?? "https://chuanmei.crawlsy.dpdns.org",
-  defaultOgImage:
-    "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1600&q=80"
+  defaultOgImage: "/images/gcr-editorial.jpg"
 };
 
 export const languagePlan = [
@@ -22,16 +21,11 @@ export const languagePlan = [
 ] as const;
 
 export const categoryImageFallbacks: Record<string, string> = {
-  editorial:
-    "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1600&q=80",
-  "city-analysis":
-    "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1600&q=80",
-  "regional-outlook":
-    "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1600&q=80",
-  "expert-perspectives":
-    "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1600&q=80",
-  reports:
-    "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1600&q=80"
+  editorial: "/images/gcr-editorial.jpg",
+  "city-analysis": "/images/gcr-city-analysis.jpg",
+  "regional-outlook": "/images/gcr-regional-outlook.jpg",
+  "expert-perspectives": "/images/gcr-expert-perspectives.jpg",
+  reports: "/images/gcr-reports.jpg"
 };
 
 export const sectionOrder = [
