@@ -11,8 +11,15 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: node:22-bookworm
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
     steps:
+      - name: Check Cloudflare API token
+        if: ${{ env.CLOUDFLARE_API_TOKEN == '' }}
+        run: echo "CLOUDFLARE_API_TOKEN is not configured; skipping Cloudflare deploy."
+
       - name: Checkout
+        if: ${{ env.CLOUDFLARE_API_TOKEN != '' }}
         env:
           GITEA_TOKEN: ${{ github.token }}
           REPOSITORY_URL: http://10.144.144.2:3333/yunhai/GlobalCityReview.git
@@ -24,12 +31,15 @@ jobs:
           git checkout --detach FETCH_HEAD
 
       - name: Install dependencies
+        if: ${{ env.CLOUDFLARE_API_TOKEN != '' }}
         run: npm install
 
       - name: Install Bun
+        if: ${{ env.CLOUDFLARE_API_TOKEN != '' }}
         run: npm install --global bun
 
       - name: Deploy
+        if: ${{ env.CLOUDFLARE_API_TOKEN != '' }}
         run: npm run cf:deploy
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
