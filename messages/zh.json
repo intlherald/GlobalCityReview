@@ -198,13 +198,13 @@
   "staticPages": {
     "updated": "Updated {date}",
     "about": {
-      "title": "关于 GlobalCityReview",
-      "description": "GlobalCityReview 的公开站点信息。",
+      "title": "关于 Global City Review",
+      "description": "Global City Review 的公开站点信息。",
       "sections": [
         {
           "heading": "我们关注什么",
           "body": [
-            "GlobalCityReview 是由 GlobalCityReview 运营的city policy, infrastructure and urban affairs news service，覆盖 city analysis, regional outlook, expert perspectives，重视可核验事实、清晰背景和对读者的实际参考价值。",
+            "Global City Review 是由 Global City Review 运营的city policy, infrastructure and urban affairs news service，覆盖 city analysis, regional outlook, expert perspectives，重视可核验事实、清晰背景和对读者的实际参考价值。",
             "本站面向专业人士、研究人员、公共事务读者和关注相关议题的普通受众，提供审慎、简明且不过度承诺的背景说明。"
           ]
         },
@@ -226,12 +226,12 @@
     },
     "editorial-principles": {
       "title": "编辑原则",
-      "description": "GlobalCityReview 的公开站点信息。",
+      "description": "Global City Review 的公开站点信息。",
       "sections": [
         {
           "heading": "独立性与来源",
           "body": [
-            "GlobalCityReview 的编辑工作保持独立，不受广告主、赞助方、消息来源及政治或商业利益支配。选题基于相关性、证据、公共利益以及与网站栏目定位的匹配度。",
+            "Global City Review 的编辑工作保持独立，不受广告主、赞助方、消息来源及政治或商业利益支配。选题基于相关性、证据、公共利益以及与网站栏目定位的匹配度。",
             "我们优先使用一手来源、具名机构、官方记录、公开备案、研究报告和可归属声明。未经核验的传言或二手说法不会被写成确定事实。"
           ]
         },
@@ -253,12 +253,12 @@
     },
     "privacy": {
       "title": "隐私政策",
-      "description": "GlobalCityReview 的公开站点信息。",
+      "description": "Global City Review 的公开站点信息。",
       "sections": [
         {
           "heading": "我们收集的信息",
           "body": [
-            "When readers visit GlobalCityReview, technical systems may collect server logs, page paths, access times, device and browser type, broad location, referring pages, IP address, cookie identifiers, and error information.",
+            "When readers visit Global City Review, technical systems may collect server logs, page paths, access times, device and browser type, broad location, referring pages, IP address, cookie identifiers, and error information.",
             "When you contact us, we process the name, email address, organization, message content, attachments, and other details you choose to provide. Search queries and forms should not include sensitive personal information."
           ]
         },
@@ -280,12 +280,12 @@
     },
     "terms": {
       "title": "使用条款",
-      "description": "GlobalCityReview 的公开站点信息。",
+      "description": "Global City Review 的公开站点信息。",
       "sections": [
         {
           "heading": "允许的使用",
           "body": [
-            "You may read, link to, and quote short excerpts from GlobalCityReview for lawful personal, research, educational, or professional reference, provided attribution is clear and the context is not misleading.",
+            "You may read, link to, and quote short excerpts from Global City Review for lawful personal, research, educational, or professional reference, provided attribution is clear and the context is not misleading.",
             "You may not scrape at scale, republish full articles, remove attribution, bypass technical controls, interfere with the site, or use content in a way that violates rights, laws, or platform rules."
           ]
         },
@@ -307,12 +307,12 @@
     },
     "cookie-policy": {
       "title": "Cookie 政策",
-      "description": "GlobalCityReview 的公开站点信息。",
+      "description": "Global City Review 的公开站点信息。",
       "sections": [
         {
           "heading": "必要与偏好 Cookie",
           "body": [
-            "GlobalCityReview uses essential cookies and similar technologies to make pages load, remember security choices, manage language or region preferences, and support basic site functions.",
+            "Global City Review uses essential cookies and similar technologies to make pages load, remember security choices, manage language or region preferences, and support basic site functions.",
             "Preference cookies may remember settings such as language, display options, or selected filters. Disabling them may make the site less convenient but should not prevent access to ordinary public pages."
           ]
         },

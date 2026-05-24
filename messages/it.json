@@ -198,13 +198,13 @@
   "staticPages": {
     "updated": "Updated {date}",
     "about": {
-      "title": "Informazioni su GlobalCityReview",
-      "description": "Informazioni pubbliche su GlobalCityReview.",
+      "title": "Informazioni su Global City Review",
+      "description": "Informazioni pubbliche su Global City Review.",
       "sections": [
         {
           "heading": "Cosa copriamo",
           "body": [
-            "GlobalCityReview is a city policy, infrastructure and urban affairs news service operated by GlobalCityReview. It covers city analysis, regional outlook, expert perspectives, with emphasis on verifiable facts, clear context, and practical relevance for its readers.",
+            "Global City Review is a city policy, infrastructure and urban affairs news service operated by Global City Review. It covers city analysis, regional outlook, expert perspectives, with emphasis on verifiable facts, clear context, and practical relevance for its readers.",
             "The site is written for professionals, researchers, public-affairs readers, and interested general audiences who need concise orientation without exaggerated certainty."
           ]
         },
@@ -226,12 +226,12 @@
     },
     "editorial-principles": {
       "title": "Principi editoriali",
-      "description": "Informazioni pubbliche su GlobalCityReview.",
+      "description": "Informazioni pubbliche su Global City Review.",
       "sections": [
         {
           "heading": "Indipendenza e fonti",
           "body": [
-            "GlobalCityReview is edited to preserve independence from advertisers, sponsors, sources, and political or commercial interests. Coverage choices are based on relevance, evidence, public interest, and fit with the site’s stated beats.",
+            "Global City Review is edited to preserve independence from advertisers, sponsors, sources, and political or commercial interests. Coverage choices are based on relevance, evidence, public interest, and fit with the site’s stated beats.",
             "We prefer primary sources, named organizations, official records, public filings, research reports, and clearly attributable statements. Unverified rumors or second-hand claims are not presented as settled fact."
           ]
         },
@@ -253,12 +253,12 @@
     },
     "privacy": {
       "title": "Informativa sulla privacy",
-      "description": "Informazioni pubbliche su GlobalCityReview.",
+      "description": "Informazioni pubbliche su Global City Review.",
       "sections": [
         {
           "heading": "Informazioni raccolte",
           "body": [
-            "When readers visit GlobalCityReview, technical systems may collect server logs, page paths, access times, device and browser type, broad location, referring pages, IP address, cookie identifiers, and error information.",
+            "When readers visit Global City Review, technical systems may collect server logs, page paths, access times, device and browser type, broad location, referring pages, IP address, cookie identifiers, and error information.",
             "When you contact us, we process the name, email address, organization, message content, attachments, and other details you choose to provide. Search queries and forms should not include sensitive personal information."
           ]
         },
@@ -280,12 +280,12 @@
     },
     "terms": {
       "title": "Termini di utilizzo",
-      "description": "Informazioni pubbliche su GlobalCityReview.",
+      "description": "Informazioni pubbliche su Global City Review.",
       "sections": [
         {
           "heading": "Uso consentito",
           "body": [
-            "You may read, link to, and quote short excerpts from GlobalCityReview for lawful personal, research, educational, or professional reference, provided attribution is clear and the context is not misleading.",
+            "You may read, link to, and quote short excerpts from Global City Review for lawful personal, research, educational, or professional reference, provided attribution is clear and the context is not misleading.",
             "You may not scrape at scale, republish full articles, remove attribution, bypass technical controls, interfere with the site, or use content in a way that violates rights, laws, or platform rules."
           ]
         },
@@ -307,12 +307,12 @@
     },
     "cookie-policy": {
       "title": "Informativa sui cookie",
-      "description": "Informazioni pubbliche su GlobalCityReview.",
+      "description": "Informazioni pubbliche su Global City Review.",
       "sections": [
         {
           "heading": "Cookie necessari e preferenze",
           "body": [
-            "GlobalCityReview uses essential cookies and similar technologies to make pages load, remember security choices, manage language or region preferences, and support basic site functions.",
+            "Global City Review uses essential cookies and similar technologies to make pages load, remember security choices, manage language or region preferences, and support basic site functions.",
             "Preference cookies may remember settings such as language, display options, or selected filters. Disabling them may make the site less convenient but should not prevent access to ordinary public pages."
           ]
         },
