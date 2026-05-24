@@ -194,5 +194,143 @@
       "p3": "If we later add analytics, account features or other services that require additional cookies, we will update this page before activation with the purpose, retention period, third-party provider and opt-out options.",
       "p4": "Readers can delete or restrict cookies through browser settings. Restricting necessary cookies may affect language redirects, security checks or page loading behavior, but it should not affect the basic ability to read public articles."
     }
+  },
+  "staticPages": {
+    "updated": "Updated {date}",
+    "about": {
+      "title": "About GlobalCityReview",
+      "description": "Public information about GlobalCityReview.",
+      "sections": [
+        {
+          "heading": "What we cover",
+          "body": [
+            "GlobalCityReview is a city policy, infrastructure and urban affairs news service operated by GlobalCityReview. It covers city analysis, regional outlook, expert perspectives, with emphasis on verifiable facts, clear context, and practical relevance for its readers.",
+            "The site is written for professionals, researchers, public-affairs readers, and interested general audiences who need concise orientation without exaggerated certainty."
+          ]
+        },
+        {
+          "heading": "How to use our work",
+          "body": [
+            "Articles may summarize public documents, official notices, company announcements, research material, event information, and other accessible sources. We distinguish proposals, approvals, launches, results, and later updates so early-stage plans are not described as completed outcomes.",
+            "Readers should use the content for news reading, research, and general situational awareness. Before relying on any item for a decision, consult original documents, current dates, applicable jurisdictions, and qualified professionals."
+          ]
+        },
+        {
+          "heading": "Contact and operator",
+          "body": [
+            "For corrections, source questions, privacy requests, or editorial contact, email: {email}",
+            "Mailing address: {address}"
+          ]
+        }
+      ]
+    },
+    "editorial-principles": {
+      "title": "Editorial Principles",
+      "description": "Public information about GlobalCityReview.",
+      "sections": [
+        {
+          "heading": "Independence and sourcing",
+          "body": [
+            "GlobalCityReview is edited to preserve independence from advertisers, sponsors, sources, and political or commercial interests. Coverage choices are based on relevance, evidence, public interest, and fit with the site’s stated beats.",
+            "We prefer primary sources, named organizations, official records, public filings, research reports, and clearly attributable statements. Unverified rumors or second-hand claims are not presented as settled fact."
+          ]
+        },
+        {
+          "heading": "Review, updates, and corrections",
+          "body": [
+            "Editors check names, dates, figures, locations, document status, and context before publication when practical. If credible new information changes a story, we may update the article, add a correction note, or revise wording to reflect the available record.",
+            "Readers can send correction requests to {email}. We review requests against source material and may receive written notices at {address}."
+          ]
+        },
+        {
+          "heading": "Automation and limits",
+          "body": [
+            "Editorial teams may use translation, research, summarization, formatting, or quality-control tools, including automated assistance. Human editors remain responsible for publication decisions and for ensuring tools do not invent sources, quotes, or certainty.",
+            "Content is for information only and is not legal, investment, tax, medical, engineering, procurement, or policy-compliance advice. We use cautious language where outcomes depend on regulation, markets, litigation, technical review, or future implementation."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "Public information about GlobalCityReview.",
+      "sections": [
+        {
+          "heading": "Information we collect",
+          "body": [
+            "When readers visit GlobalCityReview, technical systems may collect server logs, page paths, access times, device and browser type, broad location, referring pages, IP address, cookie identifiers, and error information.",
+            "When you contact us, we process the name, email address, organization, message content, attachments, and other details you choose to provide. Search queries and forms should not include sensitive personal information."
+          ]
+        },
+        {
+          "heading": "How information is used",
+          "body": [
+            "We use information to operate and secure the site, measure public page performance, respond to messages, process correction or privacy requests, detect abuse, and improve loading and navigation.",
+            "Hosting, analytics, security, email, translation, and content-delivery providers may process limited technical data for us. We do not sell reader personal information or add editorial contacts to unrelated marketing lists."
+          ]
+        },
+        {
+          "heading": "Retention, rights, and contact",
+          "body": [
+            "We keep information only as long as reasonably needed for operations, security, legal obligations, dispute handling, and editorial accountability. Retention periods vary by data type and provider.",
+            "Depending on your location, you may have rights to access, correct, delete, restrict, or object to certain processing. Requests can be sent to {email}; postal correspondence may be sent to {address}."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "description": "Public information about GlobalCityReview.",
+      "sections": [
+        {
+          "heading": "Permitted use",
+          "body": [
+            "You may read, link to, and quote short excerpts from GlobalCityReview for lawful personal, research, educational, or professional reference, provided attribution is clear and the context is not misleading.",
+            "You may not scrape at scale, republish full articles, remove attribution, bypass technical controls, interfere with the site, or use content in a way that violates rights, laws, or platform rules."
+          ]
+        },
+        {
+          "heading": "No professional advice",
+          "body": [
+            "Content is provided for general information and editorial reference. It is not legal, investment, tax, medical, engineering, procurement, or policy-compliance advice, and it should not replace reviewing original documents or consulting qualified professionals.",
+            "Facts, laws, markets, standards, policies, and project details can change after publication. We do not promise that every article is complete, current, or suitable for any particular decision."
+          ]
+        },
+        {
+          "heading": "Copyright, links, and liability",
+          "body": [
+            "Unless otherwise stated, site text, design, and original editorial materials are protected by copyright and other rights. Third-party names, logos, images, documents, and links remain the property or responsibility of their respective owners.",
+            "External links are provided for context and convenience. We are not responsible for third-party sites. Questions about these terms can be sent to {email}; notices may be mailed to {address}."
+          ]
+        }
+      ]
+    },
+    "cookie-policy": {
+      "title": "Cookie Policy",
+      "description": "Public information about GlobalCityReview.",
+      "sections": [
+        {
+          "heading": "Essential and preference cookies",
+          "body": [
+            "GlobalCityReview uses essential cookies and similar technologies to make pages load, remember security choices, manage language or region preferences, and support basic site functions.",
+            "Preference cookies may remember settings such as language, display options, or selected filters. Disabling them may make the site less convenient but should not prevent access to ordinary public pages."
+          ]
+        },
+        {
+          "heading": "Analytics and embedded services",
+          "body": [
+            "Analytics cookies help us understand page traffic, device categories, referrers, errors, and content performance in aggregated or limited form. These signals support editorial planning and technical maintenance.",
+            "Embedded services, such as video, maps, social sharing, fonts, analytics, or security tools, may place their own cookies or collect technical data under their own policies."
+          ]
+        },
+        {
+          "heading": "Managing cookies",
+          "body": [
+            "You can control cookies through browser settings, device controls, private browsing modes, consent tools where available, or third-party opt-out mechanisms. Blocking some cookies may affect preferences, embedded media, analytics, or security checks.",
+            "For questions about cookies or related privacy choices, contact {email}. Written requests may also be sent to {address}."
+          ]
+        }
+      ]
+    }
   }
 }
