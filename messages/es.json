@@ -196,7 +196,7 @@
     }
   },
   "staticPages": {
-    "updated": "Updated {date}",
+    "updated": "Actualizado el {date}",
     "about": {
       "title": "Acerca de Global City Review",
       "description": "Información pública sobre Global City Review.",
@@ -204,22 +204,22 @@
         {
           "heading": "Qué cubrimos",
           "body": [
-            "Global City Review is a city policy, infrastructure and urban affairs news service operated by Global City Review. It covers city analysis, regional outlook, expert perspectives, with emphasis on verifiable facts, clear context, and practical relevance for its readers.",
-            "The site is written for professionals, researchers, public-affairs readers, and interested general audiences who need concise orientation without exaggerated certainty."
+            "Global City Review es un servicio de noticias sobre política urbana, infraestructura y asuntos urbanos operado por Global City Review. Cubre análisis urbano, perspectivas regionales y opiniones de expertos, con énfasis en hechos verificables, contexto claro y utilidad práctica para sus lectores.",
+            "El sitio está escrito para profesionales, investigadores, lectores de asuntos públicos y audiencias interesadas que necesitan orientación concisa sin certezas exageradas."
           ]
         },
         {
           "heading": "Cómo usar nuestro trabajo",
           "body": [
-            "Articles may summarize public documents, official notices, company announcements, research material, event information, and other accessible sources. We distinguish proposals, approvals, launches, results, and later updates so early-stage plans are not described as completed outcomes.",
-            "Readers should use the content for news reading, research, and general situational awareness. Before relying on any item for a decision, consult original documents, current dates, applicable jurisdictions, and qualified professionals."
+            "Los artículos pueden resumir documentos públicos, avisos oficiales, anuncios de empresas, material de investigación, información de eventos y otras fuentes accesibles. Distinguimos propuestas, aprobaciones, lanzamientos, resultados y actualizaciones posteriores para no presentar planes iniciales como hechos consumados.",
+            "Los lectores deben usar el contenido para lectura informativa, investigación y conocimiento general de la situación. Antes de basarse en cualquier elemento para una decisión, conviene consultar documentos originales, fechas vigentes, jurisdicciones aplicables y profesionales cualificados."
           ]
         },
         {
           "heading": "Contacto y operador",
           "body": [
-            "For corrections, source questions, privacy requests, or editorial contact, email: {email}",
-            "Mailing address: {address}"
+            "Para correcciones, preguntas sobre fuentes, solicitudes de privacidad o contacto editorial, escribe a: {email}",
+            "Dirección postal: {address}"
           ]
         }
       ]
@@ -231,22 +231,22 @@
         {
           "heading": "Independencia y fuentes",
           "body": [
-            "Global City Review is edited to preserve independence from advertisers, sponsors, sources, and political or commercial interests. Coverage choices are based on relevance, evidence, public interest, and fit with the site’s stated beats.",
-            "We prefer primary sources, named organizations, official records, public filings, research reports, and clearly attributable statements. Unverified rumors or second-hand claims are not presented as settled fact."
+            "Global City Review se edita para preservar la independencia frente a anunciantes, patrocinadores, fuentes e intereses políticos o comerciales. Las decisiones de cobertura se basan en relevancia, evidencia, interés público y encaje con las áreas declaradas del sitio.",
+            "Preferimos fuentes primarias, organizaciones identificadas, registros oficiales, documentos públicos, informes de investigación y declaraciones claramente atribuibles. Los rumores no verificados o afirmaciones de segunda mano no se presentan como hechos establecidos."
           ]
         },
         {
           "heading": "Revisión, actualizaciones y correcciones",
           "body": [
-            "Editors check names, dates, figures, locations, document status, and context before publication when practical. If credible new information changes a story, we may update the article, add a correction note, or revise wording to reflect the available record.",
-            "Readers can send correction requests to {email}. We review requests against source material and may receive written notices at {address}."
+            "Cuando es posible, los editores comprueban nombres, fechas, cifras, lugares, estado documental y contexto antes de publicar. Si nueva información creíble cambia una historia, podemos actualizar el artículo, añadir una nota de corrección o ajustar la redacción para reflejar el registro disponible.",
+            "Los lectores pueden enviar solicitudes de corrección a {email}. Revisamos las solicitudes frente al material fuente y también podemos recibir avisos escritos en {address}."
           ]
         },
         {
           "heading": "Automatización y límites",
           "body": [
-            "Editorial teams may use translation, research, summarization, formatting, or quality-control tools, including automated assistance. Human editors remain responsible for publication decisions and for ensuring tools do not invent sources, quotes, or certainty.",
-            "Content is for information only and is not legal, investment, tax, medical, engineering, procurement, or policy-compliance advice. We use cautious language where outcomes depend on regulation, markets, litigation, technical review, or future implementation."
+            "Los equipos editoriales pueden usar herramientas de traducción, investigación, resumen, formato o control de calidad, incluida asistencia automatizada. Los editores humanos siguen siendo responsables de las decisiones de publicación y de asegurar que las herramientas no inventen fuentes, citas ni certezas.",
+            "El contenido es solo informativo y no constituye asesoramiento legal, de inversión, fiscal, médico, de ingeniería, contratación pública o cumplimiento normativo. Usamos lenguaje prudente cuando los resultados dependen de regulación, mercados, litigios, revisión técnica o implementación futura."
           ]
         }
       ]
@@ -258,22 +258,22 @@
         {
           "heading": "Información que recopilamos",
           "body": [
-            "When readers visit Global City Review, technical systems may collect server logs, page paths, access times, device and browser type, broad location, referring pages, IP address, cookie identifiers, and error information.",
-            "When you contact us, we process the name, email address, organization, message content, attachments, and other details you choose to provide. Search queries and forms should not include sensitive personal information."
+            "Cuando los lectores visitan Global City Review, los sistemas técnicos pueden recopilar registros del servidor, rutas de páginas, horas de acceso, tipo de dispositivo y navegador, ubicación aproximada, páginas de referencia, dirección IP, identificadores de cookies e información de errores.",
+            "Cuando nos contactas, procesamos el nombre, correo electrónico, organización, contenido del mensaje, archivos adjuntos y otros datos que elijas proporcionar. Las búsquedas y formularios no deben incluir información personal sensible."
           ]
         },
         {
           "heading": "Cómo se usa la información",
           "body": [
-            "We use information to operate and secure the site, measure public page performance, respond to messages, process correction or privacy requests, detect abuse, and improve loading and navigation.",
-            "Hosting, analytics, security, email, translation, and content-delivery providers may process limited technical data for us. We do not sell reader personal information or add editorial contacts to unrelated marketing lists."
+            "Usamos la información para operar y proteger el sitio, medir el rendimiento de páginas públicas, responder mensajes, procesar solicitudes de corrección o privacidad, detectar abusos y mejorar la carga y la navegación.",
+            "Proveedores de alojamiento, analítica, seguridad, correo, traducción y distribución de contenido pueden procesar datos técnicos limitados por nuestra cuenta. No vendemos información personal de lectores ni añadimos contactos editoriales a listas de marketing no relacionadas."
           ]
         },
         {
           "heading": "Conservación, derechos y contacto",
           "body": [
-            "We keep information only as long as reasonably needed for operations, security, legal obligations, dispute handling, and editorial accountability. Retention periods vary by data type and provider.",
-            "Depending on your location, you may have rights to access, correct, delete, restrict, or object to certain processing. Requests can be sent to {email}; postal correspondence may be sent to {address}."
+            "Conservamos la información solo durante el tiempo razonablemente necesario para operaciones, seguridad, obligaciones legales, gestión de disputas y responsabilidad editorial. Los periodos varían según el tipo de dato y el proveedor.",
+            "Según tu ubicación, puedes tener derechos de acceso, corrección, eliminación, restricción u oposición a ciertos tratamientos. Las solicitudes pueden enviarse a {email}; la correspondencia postal puede remitirse a {address}."
           ]
         }
       ]
@@ -285,22 +285,22 @@
         {
           "heading": "Uso permitido",
           "body": [
-            "You may read, link to, and quote short excerpts from Global City Review for lawful personal, research, educational, or professional reference, provided attribution is clear and the context is not misleading.",
-            "You may not scrape at scale, republish full articles, remove attribution, bypass technical controls, interfere with the site, or use content in a way that violates rights, laws, or platform rules."
+            "Puedes leer, enlazar y citar extractos breves de Global City Review para referencias personales, de investigación, educativas o profesionales lícitas, siempre que la atribución sea clara y el contexto no sea engañoso.",
+            "No puedes raspar el sitio a gran escala, republicar artículos completos, eliminar la atribución, eludir controles técnicos, interferir con el sitio ni usar el contenido de forma que viole derechos, leyes o reglas de plataformas."
           ]
         },
         {
           "heading": "Sin asesoramiento profesional",
           "body": [
-            "Content is provided for general information and editorial reference. It is not legal, investment, tax, medical, engineering, procurement, or policy-compliance advice, and it should not replace reviewing original documents or consulting qualified professionals.",
-            "Facts, laws, markets, standards, policies, and project details can change after publication. We do not promise that every article is complete, current, or suitable for any particular decision."
+            "El contenido se ofrece como información general y referencia editorial. No constituye asesoramiento legal, de inversión, fiscal, médico, de ingeniería, contratación pública o cumplimiento normativo, ni sustituye la revisión de documentos originales o la consulta con profesionales cualificados.",
+            "Los hechos, leyes, mercados, estándares, políticas y detalles de proyectos pueden cambiar después de la publicación. No prometemos que cada artículo sea completo, vigente o adecuado para una decisión particular."
           ]
         },
         {
           "heading": "Derechos, enlaces y responsabilidad",
           "body": [
-            "Unless otherwise stated, site text, design, and original editorial materials are protected by copyright and other rights. Third-party names, logos, images, documents, and links remain the property or responsibility of their respective owners.",
-            "External links are provided for context and convenience. We are not responsible for third-party sites. Questions about these terms can be sent to {email}; notices may be mailed to {address}."
+            "Salvo indicación contraria, los textos, el diseño y los materiales editoriales originales del sitio están protegidos por derechos de autor y otros derechos. Los nombres, logotipos, imágenes, documentos y enlaces de terceros siguen siendo propiedad o responsabilidad de sus respectivos titulares.",
+            "Los enlaces externos se proporcionan por contexto y comodidad. No somos responsables de sitios de terceros. Las preguntas sobre estos términos pueden enviarse a {email}; los avisos también pueden remitirse por correo a {address}."
           ]
         }
       ]
@@ -312,22 +312,22 @@
         {
           "heading": "Cookies necesarias y preferencias",
           "body": [
-            "Global City Review uses essential cookies and similar technologies to make pages load, remember security choices, manage language or region preferences, and support basic site functions.",
-            "Preference cookies may remember settings such as language, display options, or selected filters. Disabling them may make the site less convenient but should not prevent access to ordinary public pages."
+            "Global City Review usa cookies esenciales y tecnologías similares para cargar páginas, recordar opciones de seguridad, gestionar preferencias de idioma o región y respaldar funciones básicas del sitio.",
+            "Las cookies de preferencia pueden recordar ajustes como idioma, opciones de visualización o filtros seleccionados. Desactivarlas puede hacer que el sitio sea menos cómodo, pero no debería impedir el acceso a páginas públicas ordinarias."
           ]
         },
         {
           "heading": "Analítica y servicios integrados",
           "body": [
-            "Analytics cookies help us understand page traffic, device categories, referrers, errors, and content performance in aggregated or limited form. These signals support editorial planning and technical maintenance.",
-            "Embedded services, such as video, maps, social sharing, fonts, analytics, or security tools, may place their own cookies or collect technical data under their own policies."
+            "Las cookies de analítica nos ayudan a entender tráfico de páginas, categorías de dispositivos, referencias, errores y rendimiento del contenido de forma agregada o limitada. Estas señales apoyan la planificación editorial y el mantenimiento técnico.",
+            "Los servicios integrados, como video, mapas, intercambio social, fuentes, analítica o herramientas de seguridad, pueden colocar sus propias cookies o recopilar datos técnicos bajo sus propias políticas."
           ]
         },
         {
           "heading": "Gestión de cookies",
           "body": [
-            "You can control cookies through browser settings, device controls, private browsing modes, consent tools where available, or third-party opt-out mechanisms. Blocking some cookies may affect preferences, embedded media, analytics, or security checks.",
-            "For questions about cookies or related privacy choices, contact {email}. Written requests may also be sent to {address}."
+            "Puedes controlar las cookies mediante ajustes del navegador, controles del dispositivo, navegación privada, herramientas de consentimiento disponibles o mecanismos de exclusión de terceros. Bloquear algunas cookies puede afectar preferencias, medios integrados, analítica o controles de seguridad.",
+            "Para preguntas sobre cookies o decisiones de privacidad relacionadas, contacta {email}. Las solicitudes escritas también pueden enviarse a {address}."
           ]
         }
       ]

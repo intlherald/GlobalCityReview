@@ -47,7 +47,7 @@
   "search": {
     "placeholder": "搜索城市、区域或议题",
     "ariaLabel": "搜索",
-    "button": "Search",
+    "button": "搜索",
     "title": "搜索",
     "emptyTitle": "请输入关键词",
     "emptyMessage": "可搜索城市、区域、治理、交通、人口或报告主题。",
@@ -104,7 +104,7 @@
     }
   },
   "newsletter": {
-    "eyebrow": "Field Briefing",
+    "eyebrow": "现场简报",
     "title": "给认真阅读城市的人，一封每周简报",
     "description": "围绕城市治理、区域竞争、基础设施选择与公共财政信号，整理一封克制的编辑简报。不推送噪音，不做营销，只保留值得放在案头的判断。",
     "formLabel": "邮箱简报订阅",
@@ -122,10 +122,10 @@
   },
   "article": {
     "argument": "本文论点",
-    "disclosure": "Disclosure",
+    "disclosure": "披露说明",
     "fallbackDisclosure": "本文基于公开资料、参考来源和编辑分析形成，文中观点仅用于城市政策与公共议题讨论，不构成法律、投资、政策执行或商业决策建议。相关事实应以官方和原始来源为准。",
     "errorTitle": "文章暂时无法读取",
-    "sourcesEyebrow": "Sources",
+    "sourcesEyebrow": "来源",
     "sourcesTitle": "信息源头 URL",
     "noSources": "本文暂未附加公开来源链接。"
   },
@@ -171,7 +171,7 @@
       "p4": "若读者发现事实错误、来源失效或观点边界表述不清，可通过页脚邮箱联系编辑部。我们会优先核对原始来源，并在必要时更新文章、补充说明或更正明显错误。更正不会用于悄悄改变文章核心结论。"
     },
     "privacy": {
-      "eyebrow": "Privacy",
+      "eyebrow": "隐私",
       "title": "隐私政策",
       "p1": "Global City Review 采用最小化的数据处理原则。访问本站时，服务器、托管服务或安全服务可能记录 IP 地址、浏览器类型、访问时间、请求路径、错误日志和基础设备信息，用于页面交付、安全防护、性能排查和异常请求识别。",
       "p2": "本站目前不提供会员账户或读者画像功能，也不会通过表单收集读者邮箱。只有当读者主动向页脚列明的联系邮箱发送邮件时，我们才会收到其邮箱地址、邮件正文和随附信息。",
@@ -179,7 +179,7 @@
       "p4": "如需查询、更正或删除与自己相关的邮件记录，请联系 "
     },
     "terms": {
-      "eyebrow": "Terms",
+      "eyebrow": "条款",
       "title": "使用条款",
       "p1": "本站内容用于城市政策、区域发展和公共议题讨论。文章中的分析和判断基于公开资料与编辑解释，不构成法律、投资、采购、规划审批、政策执行或商业决策建议。读者在采取行动前应核对官方文件、原始数据和专业意见。",
       "p2": "读者可在合理范围内引用文章标题、短摘和链接，并应保留出处。转载完整文章、系统性抓取页面、将本站评论改写为商业报告或训练材料，或以可能误导读者的方式重新发布内容，应事先取得书面许可。",
@@ -196,7 +196,7 @@
     }
   },
   "staticPages": {
-    "updated": "Updated {date}",
+    "updated": "更新于 {date}",
     "about": {
       "title": "关于 Global City Review",
       "description": "Global City Review 的公开站点信息。",
@@ -204,7 +204,7 @@
         {
           "heading": "我们关注什么",
           "body": [
-            "Global City Review 是由 Global City Review 运营的city policy, infrastructure and urban affairs news service，覆盖 city analysis, regional outlook, expert perspectives，重视可核验事实、清晰背景和对读者的实际参考价值。",
+            "Global City Review 是由 Global City Review 运营的城市政策、基础设施与城市事务新闻服务，覆盖城市分析、区域观察和专家观点，重视可核验事实、清晰背景以及对读者的实际参考价值。",
             "本站面向专业人士、研究人员、公共事务读者和关注相关议题的普通受众，提供审慎、简明且不过度承诺的背景说明。"
           ]
         },
@@ -238,7 +238,7 @@
         {
           "heading": "审核、更新与更正",
           "body": [
-            "在可行范围内，编辑会在发布前核对名称、日期、数字、地点、文件状态和背景。可信新信息改变报道时，我们可能更新文章、添加更正说明或调整措辞。",
+            "在可行范围内，编辑会在发布前核对名称、日期、数字、地点、文件状态和背景。可信新信息改变报道时，我们可能更新文章、添加更正说明或调整措辞，以反映可获得的记录。",
             "读者可通过 {email} 提交更正请求。我们依据来源材料审核请求，书面通知也可寄至 {address}。"
           ]
         },
@@ -246,7 +246,7 @@
           "heading": "自动化工具与边界",
           "body": [
             "编辑团队可使用翻译、研究、摘要、排版或质检工具，包括自动化辅助。发布决定仍由人工编辑负责，并确保工具不会编造来源、引语或确定性。",
-            "内容仅供信息参考，不构成legal, investment, tax, medical, engineering, procurement, or policy-compliance advice。凡结果取决于监管、市场、诉讼、技术审查或未来执行的事项，我们会使用审慎表述。"
+            "内容仅供信息参考，不构成法律、投资、税务、医疗、工程、采购或政策合规建议。凡结果取决于监管、市场、诉讼、技术审查或未来执行的事项，我们会使用审慎表述。"
           ]
         }
       ]
@@ -258,22 +258,22 @@
         {
           "heading": "我们收集的信息",
           "body": [
-            "When readers visit Global City Review, technical systems may collect server logs, page paths, access times, device and browser type, broad location, referring pages, IP address, cookie identifiers, and error information.",
-            "When you contact us, we process the name, email address, organization, message content, attachments, and other details you choose to provide. Search queries and forms should not include sensitive personal information."
+            "读者访问 Global City Review 时，技术系统可能收集服务器日志、页面路径、访问时间、设备和浏览器类型、大致位置、来源页面、IP 地址、Cookie 标识符和错误信息。",
+            "当你联系我们时，我们会处理你选择提供的姓名、邮箱地址、组织、消息内容、附件及其他细节。搜索关键词和表单不应包含敏感个人信息。"
           ]
         },
         {
           "heading": "信息用途",
           "body": [
-            "We use information to operate and secure the site, measure public page performance, respond to messages, process correction or privacy requests, detect abuse, and improve loading and navigation.",
-            "Hosting, analytics, security, email, translation, and content-delivery providers may process limited technical data for us. We do not sell reader personal information or add editorial contacts to unrelated marketing lists."
+            "我们使用相关信息来运营和保护网站、衡量公开页面表现、回复消息、处理更正或隐私请求、发现滥用行为并改进加载和导航体验。",
+            "托管、分析、安全、邮件、翻译和内容分发服务商可能代表我们处理有限的技术数据。我们不会出售读者个人信息，也不会把编辑联系人加入无关营销名单。"
           ]
         },
         {
           "heading": "保存、权利与联系",
           "body": [
-            "We keep information only as long as reasonably needed for operations, security, legal obligations, dispute handling, and editorial accountability. Retention periods vary by data type and provider.",
-            "Depending on your location, you may have rights to access, correct, delete, restrict, or object to certain processing. Requests can be sent to {email}; postal correspondence may be sent to {address}."
+            "我们只在运营、安全、法律义务、争议处理和编辑问责合理需要的期间内保存信息。保存期限会因数据类型和服务商而异。",
+            "根据你所在地区，你可能享有访问、更正、删除、限制或反对某些处理的权利。请求可发送至 {email}；纸质信函可寄至 {address}。"
           ]
         }
       ]
@@ -285,22 +285,22 @@
         {
           "heading": "允许的使用",
           "body": [
-            "You may read, link to, and quote short excerpts from Global City Review for lawful personal, research, educational, or professional reference, provided attribution is clear and the context is not misleading.",
-            "You may not scrape at scale, republish full articles, remove attribution, bypass technical controls, interfere with the site, or use content in a way that violates rights, laws, or platform rules."
+            "你可以出于合法的个人、研究、教育或专业参考目的阅读、链接并引用 Global City Review 的短摘，前提是清楚标明出处且语境不产生误导。",
+            "你不得大规模抓取、完整转载文章、移除署名、绕过技术控制、干扰网站运行，或以侵犯权利、违反法律或平台规则的方式使用内容。"
           ]
         },
         {
           "heading": "不构成专业建议",
           "body": [
-            "Content is provided for general information and editorial reference. It is not legal, investment, tax, medical, engineering, procurement, or policy-compliance advice, and it should not replace reviewing original documents or consulting qualified professionals.",
-            "Facts, laws, markets, standards, policies, and project details can change after publication. We do not promise that every article is complete, current, or suitable for any particular decision."
+            "内容仅供一般信息和编辑参考，不构成法律、投资、税务、医疗、工程、采购或政策合规建议，也不能替代查阅原始文件或咨询合格专业人士。",
+            "事实、法律、市场、标准、政策和项目细节可能在发布后发生变化。我们不承诺每篇文章都完整、最新或适用于任何特定决定。"
           ]
         },
         {
           "heading": "版权、外链与责任",
           "body": [
-            "Unless otherwise stated, site text, design, and original editorial materials are protected by copyright and other rights. Third-party names, logos, images, documents, and links remain the property or responsibility of their respective owners.",
-            "External links are provided for context and convenience. We are not responsible for third-party sites. Questions about these terms can be sent to {email}; notices may be mailed to {address}."
+            "除非另有说明，网站文本、设计和原创编辑材料受版权及其他权利保护。第三方名称、标识、图片、文件和链接仍归各自权利人所有或由其负责。",
+            "外部链接仅为提供背景和便利。我们不对第三方网站负责。有关条款的问题可发送至 {email}；通知也可邮寄至 {address}。"
           ]
         }
       ]
@@ -312,22 +312,22 @@
         {
           "heading": "必要与偏好 Cookie",
           "body": [
-            "Global City Review uses essential cookies and similar technologies to make pages load, remember security choices, manage language or region preferences, and support basic site functions.",
-            "Preference cookies may remember settings such as language, display options, or selected filters. Disabling them may make the site less convenient but should not prevent access to ordinary public pages."
+            "Global City Review 使用必要 Cookie 和类似技术，以便页面加载、记住安全选择、管理语言或地区偏好，并支持基本站点功能。",
+            "偏好 Cookie 可能记住语言、显示选项或已选择的筛选条件。禁用它们可能降低使用便利性，但不应阻止访问普通公开页面。"
           ]
         },
         {
           "heading": "分析与嵌入服务",
           "body": [
-            "Analytics cookies help us understand page traffic, device categories, referrers, errors, and content performance in aggregated or limited form. These signals support editorial planning and technical maintenance.",
-            "Embedded services, such as video, maps, social sharing, fonts, analytics, or security tools, may place their own cookies or collect technical data under their own policies."
+            "分析 Cookie 帮助我们以汇总或有限形式了解页面流量、设备类别、来源、错误和内容表现。这些信号用于编辑规划和技术维护。",
+            "视频、地图、社交分享、字体、分析或安全工具等嵌入服务，可能会按照各自政策设置 Cookie 或收集技术数据。"
           ]
         },
         {
           "heading": "管理 Cookie",
           "body": [
-            "You can control cookies through browser settings, device controls, private browsing modes, consent tools where available, or third-party opt-out mechanisms. Blocking some cookies may affect preferences, embedded media, analytics, or security checks.",
-            "For questions about cookies or related privacy choices, contact {email}. Written requests may also be sent to {address}."
+            "你可以通过浏览器设置、设备控制、隐私浏览模式、可用的同意工具或第三方退出机制控制 Cookie。阻止部分 Cookie 可能影响偏好、嵌入媒体、分析或安全检查。",
+            "有关 Cookie 或相关隐私选择的问题，请联系 {email}。书面请求也可寄至 {address}。"
           ]
         }
       ]

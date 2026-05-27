@@ -196,7 +196,7 @@
     }
   },
   "staticPages": {
-    "updated": "Updated {date}",
+    "updated": "تم التحديث في {date}",
     "about": {
       "title": "حول Global City Review",
       "description": "معلومات عامة عن Global City Review.",
@@ -204,22 +204,22 @@
         {
           "heading": "ما الذي نغطيه",
           "body": [
-            "Global City Review is a city policy, infrastructure and urban affairs news service operated by Global City Review. It covers city analysis, regional outlook, expert perspectives, with emphasis on verifiable facts, clear context, and practical relevance for its readers.",
-            "The site is written for professionals, researchers, public-affairs readers, and interested general audiences who need concise orientation without exaggerated certainty."
+            "Global City Review خدمة أخبار في سياسات المدن والبنية التحتية والشؤون الحضرية تديرها Global City Review. تغطي التحليل الحضري، والآفاق الإقليمية، ووجهات نظر الخبراء، مع التركيز على الحقائق القابلة للتحقق والسياق الواضح والفائدة العملية للقراء.",
+            "يكتب الموقع للمهنيين والباحثين وقراء الشؤون العامة والجمهور المهتم الذي يحتاج إلى توجيه موجز من دون يقين مبالغ فيه."
           ]
         },
         {
           "heading": "كيفية استخدام عملنا",
           "body": [
-            "Articles may summarize public documents, official notices, company announcements, research material, event information, and other accessible sources. We distinguish proposals, approvals, launches, results, and later updates so early-stage plans are not described as completed outcomes.",
-            "Readers should use the content for news reading, research, and general situational awareness. Before relying on any item for a decision, consult original documents, current dates, applicable jurisdictions, and qualified professionals."
+            "قد تلخص المقالات وثائق عامة، وإشعارات رسمية، وإعلانات شركات، ومواد بحثية، ومعلومات عن فعاليات، ومصادر أخرى متاحة. نميز بين المقترحات والموافقات والإطلاقات والنتائج والتحديثات اللاحقة حتى لا توصف الخطط المبكرة كأنها نتائج مكتملة.",
+            "ينبغي استخدام المحتوى للقراءة الإخبارية والبحث والفهم العام للوضع. قبل الاعتماد على أي مادة في قرار، يجب مراجعة الوثائق الأصلية والتواريخ الحالية والاختصاصات ذات الصلة والمهنيين المؤهلين."
           ]
         },
         {
           "heading": "التواصل والجهة المشغلة",
           "body": [
-            "For corrections, source questions, privacy requests, or editorial contact, email: {email}",
-            "Mailing address: {address}"
+            "للتصحيحات أو أسئلة المصادر أو طلبات الخصوصية أو التواصل التحريري، راسلنا عبر: {email}",
+            "العنوان البريدي: {address}"
           ]
         }
       ]
@@ -231,22 +231,22 @@
         {
           "heading": "الاستقلالية والمصادر",
           "body": [
-            "Global City Review is edited to preserve independence from advertisers, sponsors, sources, and political or commercial interests. Coverage choices are based on relevance, evidence, public interest, and fit with the site’s stated beats.",
-            "We prefer primary sources, named organizations, official records, public filings, research reports, and clearly attributable statements. Unverified rumors or second-hand claims are not presented as settled fact."
+            "تحرر Global City Review بما يحافظ على الاستقلال عن المعلنين والجهات الراعية والمصادر والمصالح السياسية أو التجارية. تستند اختيارات التغطية إلى الصلة والأدلة والمصلحة العامة وملاءمتها لمجالات الموقع المعلنة.",
+            "نفضل المصادر الأولية، والمنظمات المسماة، والسجلات الرسمية، والإفصاحات العامة، وتقارير البحث، والتصريحات المنسوبة بوضوح. لا تقدم الشائعات غير المتحققة أو الادعاءات المنقولة كحقائق مستقرة."
           ]
         },
         {
           "heading": "المراجعة والتحديثات والتصحيحات",
           "body": [
-            "Editors check names, dates, figures, locations, document status, and context before publication when practical. If credible new information changes a story, we may update the article, add a correction note, or revise wording to reflect the available record.",
-            "Readers can send correction requests to {email}. We review requests against source material and may receive written notices at {address}."
+            "يتحقق المحررون، عندما يكون ذلك عمليا، من الأسماء والتواريخ والأرقام والمواقع وحالة الوثائق والسياق قبل النشر. إذا غيرت معلومات موثوقة القصة، فقد نحدث المقال أو نضيف ملاحظة تصحيح أو نراجع الصياغة لتعكس السجل المتاح.",
+            "يمكن للقراء إرسال طلبات التصحيح إلى {email}. نراجع الطلبات وفق مواد المصدر، ويمكن إرسال الإشعارات المكتوبة إلى {address}."
           ]
         },
         {
           "heading": "الأتمتة والحدود",
           "body": [
-            "Editorial teams may use translation, research, summarization, formatting, or quality-control tools, including automated assistance. Human editors remain responsible for publication decisions and for ensuring tools do not invent sources, quotes, or certainty.",
-            "Content is for information only and is not legal, investment, tax, medical, engineering, procurement, or policy-compliance advice. We use cautious language where outcomes depend on regulation, markets, litigation, technical review, or future implementation."
+            "قد تستخدم الفرق التحريرية أدوات للترجمة والبحث والتلخيص والتنسيق أو ضبط الجودة، بما في ذلك المساعدة الآلية. يبقى المحررون البشر مسؤولين عن قرارات النشر وعن ضمان ألا تخترع الأدوات مصادر أو اقتباسات أو يقينا غير قائم.",
+            "المحتوى مخصص للمعلومات فقط ولا يمثل نصيحة قانونية أو استثمارية أو ضريبية أو طبية أو هندسية أو متعلقة بالمشتريات أو الامتثال للسياسات. نستخدم لغة حذرة عندما تعتمد النتائج على التنظيم أو الأسواق أو التقاضي أو المراجعة الفنية أو التنفيذ المستقبلي."
           ]
         }
       ]
@@ -258,22 +258,22 @@
         {
           "heading": "المعلومات التي نجمعها",
           "body": [
-            "When readers visit Global City Review, technical systems may collect server logs, page paths, access times, device and browser type, broad location, referring pages, IP address, cookie identifiers, and error information.",
-            "When you contact us, we process the name, email address, organization, message content, attachments, and other details you choose to provide. Search queries and forms should not include sensitive personal information."
+            "عند زيارة القراء لـ Global City Review، قد تجمع الأنظمة التقنية سجلات الخادم، ومسارات الصفحات، وأوقات الوصول، ونوع الجهاز والمتصفح، والموقع التقريبي، والصفحات المحيلة، وعنوان IP، ومعرفات ملفات تعريف الارتباط، ومعلومات الأخطاء.",
+            "عندما تتواصل معنا، نعالج الاسم والبريد الإلكتروني والمنظمة ومحتوى الرسالة والمرفقات والتفاصيل الأخرى التي تختار تقديمها. ينبغي ألا تتضمن طلبات البحث أو النماذج معلومات شخصية حساسة."
           ]
         },
         {
           "heading": "كيفية استخدام المعلومات",
           "body": [
-            "We use information to operate and secure the site, measure public page performance, respond to messages, process correction or privacy requests, detect abuse, and improve loading and navigation.",
-            "Hosting, analytics, security, email, translation, and content-delivery providers may process limited technical data for us. We do not sell reader personal information or add editorial contacts to unrelated marketing lists."
+            "نستخدم المعلومات لتشغيل الموقع وتأمينه، وقياس أداء الصفحات العامة، والرد على الرسائل، ومعالجة طلبات التصحيح أو الخصوصية، واكتشاف الإساءة، وتحسين التحميل والتنقل.",
+            "قد يعالج مزودو الاستضافة والتحليلات والأمان والبريد الإلكتروني والترجمة وتوزيع المحتوى بيانات تقنية محدودة نيابة عنا. لا نبيع معلومات القراء الشخصية ولا نضيف جهات الاتصال التحريرية إلى قوائم تسويق غير ذات صلة."
           ]
         },
         {
           "heading": "الاحتفاظ والحقوق والتواصل",
           "body": [
-            "We keep information only as long as reasonably needed for operations, security, legal obligations, dispute handling, and editorial accountability. Retention periods vary by data type and provider.",
-            "Depending on your location, you may have rights to access, correct, delete, restrict, or object to certain processing. Requests can be sent to {email}; postal correspondence may be sent to {address}."
+            "نحتفظ بالمعلومات فقط للمدة اللازمة بشكل معقول للتشغيل والأمان والالتزامات القانونية ومعالجة النزاعات والمساءلة التحريرية. تختلف فترات الاحتفاظ بحسب نوع البيانات والمزود.",
+            "بحسب موقعك، قد تكون لك حقوق في الوصول أو التصحيح أو الحذف أو التقييد أو الاعتراض على بعض عمليات المعالجة. يمكن إرسال الطلبات إلى {email}؛ كما يمكن إرسال المراسلات البريدية إلى {address}."
           ]
         }
       ]
@@ -285,22 +285,22 @@
         {
           "heading": "الاستخدام المسموح",
           "body": [
-            "You may read, link to, and quote short excerpts from Global City Review for lawful personal, research, educational, or professional reference, provided attribution is clear and the context is not misleading.",
-            "You may not scrape at scale, republish full articles, remove attribution, bypass technical controls, interfere with the site, or use content in a way that violates rights, laws, or platform rules."
+            "يمكنك قراءة Global City Review والربط إليها واقتباس مقتطفات قصيرة منها لأغراض شخصية أو بحثية أو تعليمية أو مهنية مشروعة، بشرط أن يكون الإسناد واضحا وألا يكون السياق مضللا.",
+            "لا يجوز الجمع الآلي على نطاق واسع، أو إعادة نشر المقالات كاملة، أو إزالة الإسناد، أو تجاوز الضوابط التقنية، أو تعطيل الموقع، أو استخدام المحتوى بطريقة تنتهك الحقوق أو القوانين أو قواعد المنصات."
           ]
         },
         {
           "heading": "لا يقدم نصيحة مهنية",
           "body": [
-            "Content is provided for general information and editorial reference. It is not legal, investment, tax, medical, engineering, procurement, or policy-compliance advice, and it should not replace reviewing original documents or consulting qualified professionals.",
-            "Facts, laws, markets, standards, policies, and project details can change after publication. We do not promise that every article is complete, current, or suitable for any particular decision."
+            "يقدم المحتوى للمعلومات العامة والمرجعية التحريرية فقط. ولا يعد نصيحة قانونية أو استثمارية أو ضريبية أو طبية أو هندسية أو متعلقة بالمشتريات أو الامتثال للسياسات، ولا يغني عن مراجعة الوثائق الأصلية أو استشارة مهنيين مؤهلين.",
+            "قد تتغير الحقائق والقوانين والأسواق والمعايير والسياسات وتفاصيل المشاريع بعد النشر. لا نعد بأن كل مقال كامل أو حديث أو مناسب لأي قرار بعينه."
           ]
         },
         {
           "heading": "الحقوق والروابط والمسؤولية",
           "body": [
-            "Unless otherwise stated, site text, design, and original editorial materials are protected by copyright and other rights. Third-party names, logos, images, documents, and links remain the property or responsibility of their respective owners.",
-            "External links are provided for context and convenience. We are not responsible for third-party sites. Questions about these terms can be sent to {email}; notices may be mailed to {address}."
+            "ما لم يذكر خلاف ذلك، فإن نصوص الموقع وتصميمه ومواده التحريرية الأصلية محمية بحقوق النشر وحقوق أخرى. تبقى أسماء الأطراف الثالثة وشعاراتها وصورها ووثائقها وروابطها ملكا أو مسؤولية لأصحابها المعنيين.",
+            "توفر الروابط الخارجية للسياق والراحة. ولسنا مسؤولين عن مواقع الأطراف الثالثة. يمكن إرسال الأسئلة حول هذه الشروط إلى {email}؛ كما يمكن إرسال الإشعارات بالبريد إلى {address}."
           ]
         }
       ]
@@ -312,22 +312,22 @@
         {
           "heading": "الملفات الضرورية والتفضيلات",
           "body": [
-            "Global City Review uses essential cookies and similar technologies to make pages load, remember security choices, manage language or region preferences, and support basic site functions.",
-            "Preference cookies may remember settings such as language, display options, or selected filters. Disabling them may make the site less convenient but should not prevent access to ordinary public pages."
+            "تستخدم Global City Review ملفات تعريف ارتباط ضرورية وتقنيات مشابهة لتحميل الصفحات، وتذكر اختيارات الأمان، وإدارة تفضيلات اللغة أو المنطقة، ودعم الوظائف الأساسية للموقع.",
+            "قد تتذكر ملفات التفضيل إعدادات مثل اللغة أو خيارات العرض أو عوامل التصفية المختارة. قد يجعل تعطيلها الموقع أقل سهولة، لكنه لا ينبغي أن يمنع الوصول إلى الصفحات العامة العادية."
           ]
         },
         {
           "heading": "التحليلات والخدمات المضمنة",
           "body": [
-            "Analytics cookies help us understand page traffic, device categories, referrers, errors, and content performance in aggregated or limited form. These signals support editorial planning and technical maintenance.",
-            "Embedded services, such as video, maps, social sharing, fonts, analytics, or security tools, may place their own cookies or collect technical data under their own policies."
+            "تساعدنا ملفات التحليلات على فهم حركة الصفحات وفئات الأجهزة والمصادر والأخطاء وأداء المحتوى في صورة مجمعة أو محدودة. تدعم هذه الإشارات التخطيط التحريري والصيانة التقنية.",
+            "قد تضع الخدمات المضمنة، مثل الفيديو والخرائط والمشاركة الاجتماعية والخطوط والتحليلات وأدوات الأمان، ملفاتها الخاصة أو تجمع بيانات تقنية وفق سياساتها."
           ]
         },
         {
           "heading": "إدارة الملفات",
           "body": [
-            "You can control cookies through browser settings, device controls, private browsing modes, consent tools where available, or third-party opt-out mechanisms. Blocking some cookies may affect preferences, embedded media, analytics, or security checks.",
-            "For questions about cookies or related privacy choices, contact {email}. Written requests may also be sent to {address}."
+            "يمكنك التحكم في ملفات تعريف الارتباط من خلال إعدادات المتصفح، أو ضوابط الجهاز، أو أوضاع التصفح الخاص، أو أدوات الموافقة المتاحة، أو آليات إلغاء الاشتراك التابعة لجهات خارجية. قد يؤثر حظر بعض الملفات في التفضيلات أو الوسائط المضمنة أو التحليلات أو فحوص الأمان.",
+            "للاستفسارات حول ملفات تعريف الارتباط أو خيارات الخصوصية المرتبطة بها، تواصل عبر {email}. كما يمكن إرسال الطلبات المكتوبة إلى {address}."
           ]
         }
       ]
