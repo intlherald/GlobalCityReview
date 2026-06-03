@@ -64,6 +64,8 @@ export type Category = {
   id: number;
   /** Site ID. */
   site_id: number;
+  /** Parent category ID. Null means this is a top-level category. */
+  parent_id: number | null;
   /** Stable category slug used in URLs and category_slug filters. */
   slug: string;
   /** Sort order for navigation. */
