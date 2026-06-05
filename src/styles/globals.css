@@ -732,6 +732,10 @@ main {
   padding-inline-start: 22px;
 }
 
+.source-box a {
+  overflow-wrap: anywhere;
+}
+
 .source-box li span {
   display: block;
   color: var(--muted);

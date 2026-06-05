@@ -101,7 +101,7 @@ export default async function ArticlePage({ params }: PageProps) {
 
         <section className="disclosure">
           <p className="eyebrow">{tArticle("disclosure")}</p>
-          <p>{content.disclosure_text ?? tArticle("fallbackDisclosure")}</p>
+          <p>{tArticle("fallbackDisclosure")}</p>
         </section>
 
         <SourceLinks sources={content.sources} />

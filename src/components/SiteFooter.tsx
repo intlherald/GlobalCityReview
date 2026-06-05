@@ -7,7 +7,6 @@ import { localizedPath } from "@/i18n/routing";
 const socialLinks = [
   { label: "LinkedIn", href: "https://www.linkedin.com/company/global-city-review", icon: "linkedin" },
   { label: "Facebook", href: "https://www.facebook.com/globalcityreview", icon: "facebook" },
-  { label: "RSS", href: "/feed.xml", icon: "rss" },
 ] as const;
 
 function SocialIcon({ icon }: { icon: (typeof socialLinks)[number]["icon"] }) {

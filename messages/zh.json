@@ -123,7 +123,7 @@
   "article": {
     "argument": "本文论点",
     "disclosure": "披露说明",
-    "fallbackDisclosure": "本文基于公开资料、参考来源和编辑分析形成，文中观点仅用于城市政策与公共议题讨论，不构成法律、投资、政策执行或商业决策建议。相关事实应以官方和原始来源为准。",
+    "fallbackDisclosure": "Global City Review 基于公开资料、参考来源和编辑审阅撰写本文，内容属于城市政策与城市生活报道。本文仅供信息参考，不构成法律、财务、投资、医疗、技术、采购或其他专业建议。",
     "errorTitle": "文章暂时无法读取",
     "sourcesEyebrow": "来源",
     "sourcesTitle": "信息源头 URL",
