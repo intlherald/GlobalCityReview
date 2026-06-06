@@ -122,8 +122,8 @@
   },
   "article": {
     "argument": "Argomento centrale",
-    "disclosure": "Nota sulle fonti",
-    "fallbackDisclosure": "Global City Review presenta questo articolo come una nota documentata su urban policy and city analysis. Gli URL delle fonti restano il primo percorso di verifica e permettono di consultare il materiale originale. Il testo è informativo; decisioni legali, finanziarie, d'investimento, mediche, tecniche o di acquisto devono essere confrontate con documenti primari e consulenza qualificata.",
+    "disclosure": "Nota fonti locale · Global City Review",
+    "fallbackDisclosure": "Global City Review colloca questa nota dentro Global City Review pubblica editoriali, analisi urbane, prospettive regionali e report su governance urbana.... date, nomi e cambi di stato restano da verificare; Editoriale / Analisi urbana / Prospettiva regionale spiega l'angolo editoriale locale (URL delle fonti vanno aperti prima di riusare il riassunto).",
     "errorTitle": "Questo articolo è temporaneamente non disponibile",
     "sourcesEyebrow": "Fonti",
     "sourcesTitle": "URL delle fonti",

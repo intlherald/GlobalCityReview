@@ -122,8 +122,8 @@
   },
   "article": {
     "argument": "Argument central",
-    "disclosure": "Note sur les sources",
-    "fallbackDisclosure": "Global City Review présente cet article comme une note sourcée sur urban policy and city analysis. Les URL visibles restent la première piste de vérification et permettent de consulter le matériau d'origine. Le texte est informatif; les décisions juridiques, financières, d'investissement, médicales, techniques ou d'achat doivent être confrontées aux sources primaires et à des conseils qualifiés.",
+    "disclosure": "Périmètre de lecture · Global City Review",
+    "fallbackDisclosure": "Global City Review replace cette note dans Global City Review publie des éditoriaux, analyses urbaines, perspectives régionales et rapports sur la gou.... dates, noms et changements de statut restent à vérifier; Éditorial / Analyse urbaine / Perspective régionale explique l'angle éditorial local (les URL des sources doivent être ouverts avant de reprendre le résumé).",
     "errorTitle": "Cet article est temporairement indisponible",
     "sourcesEyebrow": "Sources",
     "sourcesTitle": "URL des sources",

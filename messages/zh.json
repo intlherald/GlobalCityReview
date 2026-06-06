@@ -122,8 +122,8 @@
   },
   "article": {
     "argument": "本文论点",
-    "disclosure": "来源说明",
-    "fallbackDisclosure": "Global City Review 将本文作为 urban policy and city analysis 领域的来源型简报处理。下方保留的信息源头 URL 是读者核验的第一路径；编辑部据此梳理事实、日期、名称和表述边界。本文不构成专业建议，重要决策仍应核对原始材料和现行规则。",
+    "disclosure": "阅读边界 · 全球城市评论",
+    "fallbackDisclosure": "全球城市评论 将这段说明放在「全球城市评论提供社论、城市分析、区域观察与深度报告，关注城市治理和长期公共议题。」的站点语境中。日期、名称和状态变化仍需重新核对；「城市分析 / 区域观察 / 专家观点」解释了本文的本地编辑角度 (读者复用摘要前应先打开信息源头 URL)。",
     "errorTitle": "文章暂时无法读取",
     "sourcesEyebrow": "来源",
     "sourcesTitle": "信息源头 URL",
