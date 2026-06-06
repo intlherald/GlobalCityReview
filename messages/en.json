@@ -122,8 +122,8 @@
   },
   "article": {
     "argument": "Core argument",
-    "disclosure": "Disclosure",
-    "fallbackDisclosure": "Global City Review prepares this article from public materials, cited references and editorial review in its urban policy and city life coverage. It is for information only and does not constitute legal, financial, investment, medical, technical, procurement or other professional advice.",
+    "disclosure": "Source note",
+    "fallbackDisclosure": "Global City Review treats this article as a sourced brief for urban policy and city analysis. The visible source URLs remain the reader's first trail; our editors use them to frame the story, check names, dates and claims, and separate reported facts from interpretation. It is not professional advice, and readers should confirm important decisions against the original material and current rules.",
     "errorTitle": "This article is temporarily unavailable",
     "sourcesEyebrow": "Sources",
     "sourcesTitle": "Source URLs",

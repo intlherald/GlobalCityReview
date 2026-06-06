@@ -122,8 +122,8 @@
   },
   "article": {
     "argument": "Argomento centrale",
-    "disclosure": "Nota",
-    "fallbackDisclosure": "Global City Review prepara questo articolo sulla base di materiali pubblici, fonti citate e revisione editoriale in materia di politiche urbane e vita cittadina. Il contenuto è solo informativo e non costituisce consulenza legale, finanziaria, d'investimento, medica, tecnica, di acquisto o altra consulenza professionale.",
+    "disclosure": "Nota sulle fonti",
+    "fallbackDisclosure": "Global City Review presenta questo articolo come una nota documentata su urban policy and city analysis. Gli URL delle fonti restano il primo percorso di verifica e permettono di consultare il materiale originale. Il testo è informativo; decisioni legali, finanziarie, d'investimento, mediche, tecniche o di acquisto devono essere confrontate con documenti primari e consulenza qualificata.",
     "errorTitle": "Questo articolo è temporaneamente non disponibile",
     "sourcesEyebrow": "Fonti",
     "sourcesTitle": "URL delle fonti",

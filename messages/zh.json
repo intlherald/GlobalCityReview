@@ -122,8 +122,8 @@
   },
   "article": {
     "argument": "本文论点",
-    "disclosure": "披露说明",
-    "fallbackDisclosure": "Global City Review 基于公开资料、参考来源和编辑审阅撰写本文，内容属于城市政策与城市生活报道。本文仅供信息参考，不构成法律、财务、投资、医疗、技术、采购或其他专业建议。",
+    "disclosure": "来源说明",
+    "fallbackDisclosure": "Global City Review 将本文作为 urban policy and city analysis 领域的来源型简报处理。下方保留的信息源头 URL 是读者核验的第一路径；编辑部据此梳理事实、日期、名称和表述边界。本文不构成专业建议，重要决策仍应核对原始材料和现行规则。",
     "errorTitle": "文章暂时无法读取",
     "sourcesEyebrow": "来源",
     "sourcesTitle": "信息源头 URL",
