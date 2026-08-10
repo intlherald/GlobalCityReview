@@ -5,7 +5,7 @@ export function MarkdownBody({ body }: { body: string }) {
     <div className="markdown-body">
       <ReactMarkdown
         components={{
-          img: () => null,
+          img: ({ src, alt }) => <img src={src} alt={alt || ""} loading="lazy" />,
           a: ({ href, children }) => (
             <a href={href} target="_blank" rel="noreferrer">
               {children}
