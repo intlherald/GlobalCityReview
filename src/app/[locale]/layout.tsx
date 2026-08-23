@@ -7,6 +7,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { getDirection, isLocaleSegment } from "@/i18n/routing";
 import { siteConfig } from "@/lib/config";
+import { CmsHeadScripts } from "@/lib/cms-head-scripts";
 import { normalizeLanguages, plannedLanguages } from "@/lib/seo";
 import "@/styles/globals.css";
 
@@ -49,6 +50,9 @@ export default async function LocaleLayout({ children, params }: LayoutProps) {
 
   return (
     <html lang={locale} dir={getDirection(locale)}>
+      <head>
+        <CmsHeadScripts />
+      </head>
       <body>
         <NextIntlClientProvider messages={messages}>
           <SiteHeader categories={categories} languages={languages} locale={locale} />

@@ -27,17 +27,17 @@ export type PublicPage<T> = {
 };
 
 /** Site language configuration, used for frontend language switchers. */
-export type PublicSiteProfile = {
-  id: number;
-  slug: string;
-  domain: string;
-  name: string;
-  default_language: string;
-  supported_languages: string[];
-  contact_email: string | null;
-  address: string | null;
-  theme_config: Record<string, unknown>;
-};
+export type PublicSiteProfile = { id: number;
+slug: string;
+domain: string;
+name: string;
+default_language: string;
+supported_languages: string[];
+contact_email: string | null;
+address: string | null;
+theme_config: Record<string, unknown>;
+  head_scripts: string[];
+}
 
 export type SiteLanguage = {
   /** Language config ID. */
